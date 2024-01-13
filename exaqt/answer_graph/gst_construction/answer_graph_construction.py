@@ -294,15 +294,15 @@ class AnswerGraph:
         return input_data
 
     def er_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """Retrieve candidate facts."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def gst_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """Run gst for an instance."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def tempers_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """Retrieve candidate temporal facts."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def ers_inference_on_instance(self, instance):

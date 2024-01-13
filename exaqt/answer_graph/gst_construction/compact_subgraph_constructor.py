@@ -743,7 +743,9 @@ class QuestionUnionGST():
         output_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
         nerd = self.config["nerd"]
         question_id = instance["Id"]
-        output_dir = os.path.join(output_dir, nerd, "gst")
+        fs_max_evidences = self.config["fs_max_evidences"]
+        topg = self.config["top-gst-number"]
+        output_dir = os.path.join(output_dir, nerd, f"ers-{fs_max_evidences}-gst-{topg}")
         Path(output_dir).mkdir(parents=True, exist_ok=True)
         gst_output_path = os.path.join(output_dir, f"{question_id}_gst.gexf")
         complete_gst_output_path = os.path.join(output_dir, f"{question_id}_comgst.gexf")
