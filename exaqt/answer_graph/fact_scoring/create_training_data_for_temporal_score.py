@@ -186,46 +186,19 @@ if __name__ == "__main__":
     input_dir = config["path_to_intermediate_results"]
     output_dir = config["path_to_intermediate_results"]
     nerd = config["nerd"]
+    benchmark = config["benchmark"]
     fs_max_evidences = config["fs_max_evidences"]
     topg = config["top-gst-number"]
 
-    if function == "--train-1":
+    if function == "--train":
         fs = CreateDatasetTemporalFactScoring(config)
         part = function.split("-")[-1]
-        input_path = os.path.join(input_dir, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}-{part}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-train-{part}.csv")
-        fs.create_train_data(input_path, output_path)
-
-    elif function == "--train-2":
-        fs = CreateDatasetTemporalFactScoring(config)
-        part = function.split("-")[-1]
-        input_path = os.path.join(input_dir, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}-{part}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-train-{part}.csv")
-        fs.create_train_data(input_path, output_path)
-
-    elif function == "--train-3":
-        fs = CreateDatasetTemporalFactScoring(config)
-        part = function.split("-")[-1]
-        input_path = os.path.join(input_dir, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}-{part}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-train-{part}.csv")
-        fs.create_train_data(input_path, output_path)
-
-    elif function == "--train-4":
-        fs = CreateDatasetTemporalFactScoring(config)
-        part = function.split("-")[-1]
-        input_path = os.path.join(input_dir, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}-{part}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-train-{part}.csv")
-        fs.create_train_data(input_path, output_path)
-
-    elif function == "--train-5":
-        fs = CreateDatasetTemporalFactScoring(config)
-        part = function.split("-")[-1]
-        input_path = os.path.join(input_dir, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}-{part}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-train-{part}.csv")
+        input_path = os.path.join(input_dir, benchmark, nerd, f"train-ers-{fs_max_evidences}-gst-{topg}.jsonl")
+        output_path = os.path.join(input_dir, benchmark, nerd, f"temporal-train.csv")
         fs.create_train_data(input_path, output_path)
 
     elif function == "--dev":
         fs = CreateDatasetTemporalFactScoring(config)
-        input_path = os.path.join(input_dir, nerd, f"dev-ers-{fs_max_evidences}-gst-{topg}.jsonl")
-        output_path = os.path.join(input_dir, nerd, f"temporal-dev.csv")
+        input_path = os.path.join(input_dir, benchmark, nerd, f"dev-ers-{fs_max_evidences}-gst-{topg}.jsonl")
+        output_path = os.path.join(input_dir, benchmark, nerd, f"temporal-dev.csv")
         fs.create_train_data(input_path, output_path)
