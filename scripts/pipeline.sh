@@ -8,14 +8,13 @@ then
 	echo "Usage: bash scripts/pipeline.sh\\
 		--answer-graph\\
 		/--answer-prediction\\
-		[<PATH_TO_CONFIG>] [<SOURCES_STR>]"
+		[<PATH_TO_CONFIG>]"
 	exit 0
 fi
 
 ## read config parameter: if no present, stick to default (exaqt-elq-wat.yml)
 FUNCTION=$1
 CONFIG=${2:-"config/timequestions/config.yml"}
-SOURCES=${3:-"kb_text_table_info"}
 
 # set path for output
 # get function name
@@ -30,8 +29,6 @@ CFG_NAME=${NAME[2]%".yml"}
 if [[ $# -lt 3 ]]
 then
 	OUT="out/${DATA}/pipeline-${FUNCTION_NAME}-${CFG_NAME}.out"
-else
-	OUT="out/${DATA}/pipeline-${FUNCTION_NAME}-${CFG_NAME}-${SOURCES}.out"
 fi
 
 echo $OUT
@@ -41,7 +38,7 @@ echo $OUT
 if ! command -v sbatch &> /dev/null
 then
 	# no slurm setup: run via nohup
-	nohup python -u exaqt/pipeline.py $FUNCTION $CONFIG $SOURCES > $OUT 2>&1 &
+	nohup python -u exaqt/pipeline.py $FUNCTION $CONFIG $OUT 2>&1 &
 else
 	echo "starting slurm task now"
 	echo $OUT
@@ -52,6 +49,6 @@ else
 #SBATCH --gres gpu:1
 #SBATCH -t 2-00:00:00
 
-python -u exaqt/pipeline.py $FUNCTION $CONFIG $SOURCES
+python -u exaqt/pipeline.py $FUNCTION $CONFIG
 EOT
 fi
