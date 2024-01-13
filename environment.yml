@@ -121,4 +121,3 @@ dependencies:
       - werkzeug==2.2.3
       - wikipedia2vec==1.0.5
       - zipp==3.15.0
-prefix: /GW/qa5/work/ehtqa/anaconda3/envs/exaqt
