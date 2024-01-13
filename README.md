@@ -28,7 +28,7 @@ First, you need to run the scripts for NERD on the dataset. Please follow the in
 EXAQT includes two stages: answer graph construction and answer prediction.
 For reproducing the results on TimeQuestions, run the following two commands respectively:
 ``` bash
-    bash scripts/pipeline.sh --answer-graph-pipeline config/timequestions/config.yml
+    bash scripts/pipeline.sh --answer-graph config/timequestions/config.yml
     bash scripts/pipeline.sh --answer-predict config/timequestions/config.yml
 ```
 

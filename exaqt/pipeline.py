@@ -13,7 +13,6 @@ from exaqt.answer_predict.train_eva_rgcn import GCN
 from exaqt.answer_predict.script_listscore import compare_pr, evaluate_result_for_category
 from exaqt.evaluation import answer_presence, answer_presence_gst
 
-
 class Pipeline:
     def __init__(self, config):
         """Create the pipeline based on the config."""
@@ -201,48 +200,6 @@ class Pipeline:
         MODEL_FILE = os.path.join(self.config["path_to_data"], self.config['wikipedia2vec_path'])
         get_pretrained_embedding_from_wiki2vec(MODEL_FILE, dictionary_path)
 
-    def _evaluate_gst(self, split):
-        """
-        Run the pipeline using gold answers for the dataset.
-        """
-        # define output path
-        """Run GST on data"""
-        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
-        output_dir = input_dir
-        fs_max_evidences = self.config["fs_max_evidences"]
-        topg = self.config["top-gst-number"]
-        # process data
-        input_path = os.path.join(input_dir, self.nerd, f"{split}-ers-{fs_max_evidences}.jsonl")
-        output_path = os.path.join(output_dir, self.nerd, f"{split}-ers-{fs_max_evidences}-gst-{topg}.jsonl")
-
-        self.ftrs.gst_inference_on_data_split(input_path, output_path)
-        self.ftrs.evaluate_gst_results(output_path)
-
-    def _evaluate_gst_train(self, part):
-        """
-        Run the pipeline using gold answers for the dataset.
-        """
-        # define output path
-        """Run GST on data"""
-        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
-        output_dir = input_dir
-        fs_max_evidences = self.config["fs_max_evidences"]
-        topg = self.config["top-gst-number"]
-        # process data
-        input_path = os.path.join(input_dir, self.nerd, f"train-ers-{fs_max_evidences}-path.jsonl")
-        output_path = os.path.join(output_dir, self.nerd, f"train-ers-{fs_max_evidences}-gst-{topg}.jsonl")
-
-        self.ftrs.gst_inference_on_data_split(input_path, output_path)
-        self.ftrs.evaluate_gst_results(output_path)
-
-    def _evaluate_retriever(self, split):
-        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
-        output_dir = input_dir
-        input_path = os.path.join(input_dir, f"{split}-nerd.json")
-        output_path = os.path.join(output_dir, self.nerd, f"{split}-er.jsonl")
-        self.ftrs.er_inference_on_data_split(input_path, output_path)
-        self.ftrs.evaluate_retrieval_results(output_path)
-
     def _load_ftrs(self):
         self.logger.info("Loading Fact Retrieval module")
         return FTRS(self.config, self.property)
@@ -263,64 +220,13 @@ if __name__ == "__main__":
     config_path = sys.argv[2]
     config = get_config(config_path)
 
-    if function == "--answer-graph-pipeline":
+    if function == "--answer-graph":
         pipeline = Pipeline(config)
         pipeline.answer_graph_pipeline()
 
     if function == "--answer-predict":
         pipeline = Pipeline(config)
         pipeline.answer_predict_pipeline()
-
-    # inference using predicted answers
-    elif function == "--retrieve-test":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_retriever("test")
-
-    elif function == "--retrieve-dev":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_retriever("dev")
-
-    elif function == "--retrieve-train":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_retriever("train")
-
-    elif function == "--run-ftrs":
-        pipeline = Pipeline(config)
-        pipeline.run_ftrs()
-
-    elif function == "--run-tempftrs":
-        pipeline = Pipeline(config)
-        pipeline.run_tempftrs()
-
-    elif function == "--gst-test":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_gst("test")
-
-    elif function == "--gst-dev":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_gst("dev")
-
-    elif function == "--gst-train":
-        pipeline = Pipeline(config)
-        pipeline._evaluate_gst("train")
-
-    elif function == "--gcn-subgraph":
-        pipeline = Pipeline(config)
-        pipeline.gcn_subgraph()
-
-    elif function == "--gcn-model-train":
-        pipeline = Pipeline(config)
-        pipeline.gcn_model_train()
-
-    elif function == "--gcn-model-inference":
-        pipeline = Pipeline(config)
-        pipeline.gcn_model_inference()
-
-    elif function == "--gcn-pipeline":
-        pipeline = Pipeline(config)
-        pipeline.gcn_subgraph()
-        pipeline.gcn_model_train()
-        pipeline.gcn_model_inference()
 
     else:
         raise Exception(f"Unknown function {function}!")
