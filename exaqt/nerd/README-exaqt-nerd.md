@@ -33,8 +33,9 @@ You can initiate the [NerdPipeline](pipeline_nerd.py) class and process NERD on 
 python `pipeline_nerd.py` `<FUNCTION>` `<PATH_TO_CONFIG>`
 
 Note that the program should run under directory of BLINK
-after building the environment called "el4qa" of ELQ (https://github.com/facebookresearch/BLINK/tree/master/elq).
+after building the environment of [ELQ](https://github.com/facebookresearch/BLINK/tree/master/elq).
+You need to put the scripts under the "nerd" folder into the "BLINK" folder after installing "ELQ".
 
-If you only use TagMe or WAT as NERD tool, you can remove ELQ part from the code.
+If you only use TagMe or WAT as the NERD tool, you can remove ELQ part from the code.
 
 Other script needed for running the program is utils.py under the library directory.
