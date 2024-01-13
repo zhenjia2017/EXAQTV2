@@ -7,6 +7,52 @@ import re
 import hashlib
 from pathlib import Path
 
+TIMESTAMP_PATTERN_1 = re.compile('^"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T00:00:00Z"')
+TIMESTAMP_PATTERN_2 = re.compile("^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T00:00:00Z")
+TIMESTAMP_PATTERN_3 = re.compile("^[-][0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T00:00:00Z")
+def is_timestamp(string):
+    """Return if the given string is a timestamp."""
+    if TIMESTAMP_PATTERN_1.match(string.strip()) or TIMESTAMP_PATTERN_2.match(
+            string.strip()) or TIMESTAMP_PATTERN_3.match(string.strip()):
+        return True
+    else:
+        return False
+def convert_number_to_month(number):
+    """Map the given month to a number."""
+    return {
+        "01": "January",
+        "02": "February",
+        "03": "March",
+        "04": "April",
+        "05": "May",
+        "06": "June",
+        "07": "July",
+        "08": "August",
+        "09": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December",
+    }[number]
+
+def convert_timestamp_to_date(timestamp):
+    """Convert the given timestamp to the corresponding date."""
+    try:
+        adate = timestamp.rsplit("-", 2)
+        # parse data
+        year = adate[0]
+        month = convert_number_to_month(adate[1])
+        day = adate[2].split("T")[0]
+        # remove leading zero
+        if day[0] == "0":
+            day = day[1]
+        if day == "1" and adate[1] == "01":
+            # return year for 1st jan
+            return year
+        date = f"{day} {month} {year}"
+        return date
+    except:
+        # print(f"Failure with timestamp {timestamp}")
+        return timestamp
 def load_dict(filename):
     word2id = dict()
     with open(filename) as f_in:
@@ -155,6 +201,7 @@ def replace_symbols_in_entity(s):
     s = s.strip('"@de')
     s = s.strip()
     return s
+
 
 def format_answers(instance):
     # TBD:  JZ need to be updated if answer format will be changed for Temp.Ans questions

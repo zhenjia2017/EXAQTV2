@@ -2,6 +2,7 @@ import truecase
 import json
 import torch
 import random
+import os
 from tqdm import tqdm
 from sklearn import model_selection
 import csv
@@ -33,7 +34,8 @@ class BERTDataset:
         self.q1 = q1
         self.q2 = q2
         self.target = target
-        self.tokenizer = transformers.BertTokenizer.from_pretrained(config["bert_model_path"], do_lower_case = False)
+        self.bert_model_path = os.path.join(config["path_to_data"], config["bert_model_path"])
+        self.tokenizer = transformers.BertTokenizer.from_pretrained(self.bert_model_path, do_lower_case = False)
         self.max_len = 512
 
     def __len__(self):

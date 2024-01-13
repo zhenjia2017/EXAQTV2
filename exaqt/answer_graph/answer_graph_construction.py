@@ -2,7 +2,7 @@ import os
 import json
 from pathlib import Path
 from tqdm import tqdm
-from exaqt.library.utils import get_config, get_logger, format_answers
+from exaqt.library.utils import *
 from exaqt.evaluation import answer_presence, answer_presence_gst
 import time
 
@@ -33,7 +33,16 @@ class AnswerGraph:
 
         # process dev data
         input_path = os.path.join(input_dir, f"dev-nerd.json")
-        output_path = os.path.join(output_dir, self.nerd, f"train-er.jsonl")
+        output_path = os.path.join(output_dir, self.nerd, f"dev-er.jsonl")
+        if not os.path.exists(input_path):
+            print("The nerd file needs to be created...")
+            return
+        self.er_inference_on_data_split(input_path, output_path)
+        self.evaluate_retrieval_results(output_path)
+
+        # process dev data
+        input_path = os.path.join(input_dir, f"test-nerd.json")
+        output_path = os.path.join(output_dir, self.nerd, f"test-er.jsonl")
         if not os.path.exists(input_path):
             print("The nerd file needs to be created...")
             return
@@ -218,15 +227,15 @@ class AnswerGraph:
             elif answer["AnswerType"] == "Value":
                 answer = {
                     "id": answer["AnswerArgument"],
-                    "label": self.date_lib.convert_timestamp_to_date(
-                        answer["AnswerArgument"]) if self.date_lib.is_timestamp(answer["AnswerArgument"]) else answer[
+                    "label": convert_timestamp_to_date(
+                        answer["AnswerArgument"]) if is_timestamp(answer["AnswerArgument"]) else answer[
                         "AnswerArgument"]
                 }
             elif answer["AnswerType"] == "Timestamp":
                 answer = {
                     "id": answer["AnswerArgument"],
-                    "label": self.date_lib.convert_timestamp_to_date(
-                        answer["AnswerArgument"]) if self.date_lib.is_timestamp(answer["AnswerArgument"]) else answer[
+                    "label": convert_timestamp_to_date(
+                        answer["AnswerArgument"]) if is_timestamp(answer["AnswerArgument"]) else answer[
                         "AnswerArgument"]
                 }
             # elif answer["AnswerType"] == "Timespan":

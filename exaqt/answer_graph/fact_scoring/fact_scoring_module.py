@@ -15,8 +15,9 @@ class FactScoringModule(AnswerGraph):
         self.logger = get_logger(__name__, config)
         self.dataset = dataset.DatasetFactScoring(self.config, property)
         self.tempdataset = tempdataset.DatasetTemporalFactScoring(self.config, property)
+        self.benchmark = self.config["benchmark"]
         # initialize model
-        self.best_model_path = os.path.join(self.config["path_to_data"], self.config["fs_model_save_path"], self.config["best_model_file"])
+        self.best_model_path = os.path.join(self.config["path_to_data"], self.benchmark, self.config["fs_model_save_path"], self.config["best_model_file"])
         self.factscore = FactScoringModel(config, self.best_model_path)
         self.model_loaded = False
         self.nerd = self.config["nerd"]
@@ -86,24 +87,4 @@ class FactScoringModule(AnswerGraph):
             self.factscore.set_eval_mode()
             self.model_loaded = True
 
-#######################################################################################################################
-#######################################################################################################################
-import sys
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        raise Exception("python exaqt/answer_graph/fact_scoring/fact_scoring_module.py <PATH_TO_CONFIG>")
-    # load config
-    config_path = sys.argv[1]
-    config = get_config(config_path)
-    fs = FactScoringModule(config)
-    input_dir = os.path.join(config["path_to_intermediate_results"], config["benchmark"])
-    output_dir = input_dir
-    nerd = config["nerd"]
-    fs_max_evidences = config["fs_max_evidences"]
-    # process data
-    input_path = os.path.join(input_dir, nerd, f"test-er.jsonl")
-    output_path = os.path.join(output_dir, nerd, f"test-ers-{fs_max_evidences}.jsonl")
-
-    fs.ers_inference_on_data_split(input_path, output_path)
-    fs.evaluate_retrieval_results(output_path)
 

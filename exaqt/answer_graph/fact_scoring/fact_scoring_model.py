@@ -20,6 +20,7 @@ from exaqt.library.utils import get_config, get_logger
 class BERTBaseUncased(torch.nn.Module):
     def __init__(self, config):
         super(BERTBaseUncased, self).__init__()
+        self.config = config
         self.bert_model_path = os.path.join(self.config["path_to_data"], self.config["bert_model_path"])
         self.model = transformers.BertModel.from_pretrained(self.bert_model_path)
         self.bert_drop = torch.nn.Dropout(0.3)

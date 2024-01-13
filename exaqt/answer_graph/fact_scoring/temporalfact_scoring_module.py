@@ -13,8 +13,9 @@ class TempFactScoringModule(AnswerGraph):
         self.property = property
         self.logger = get_logger(__name__, config)
         self.tempdataset = tempdataset.DatasetTemporalFactScoring(self.config, property)
+        self.benchmark = self.config["benchmark"]
         # initialize model
-        self.best_model_path = os.path.join(self.config["data_to_path"], self.config["fs_model_save_path"], self.config["best_temporal_model_file"])
+        self.best_model_path = os.path.join(self.config["path_to_data"], self.benchmark, self.config["fs_model_save_path"], self.config["best_temporal_model_file"])
         self.factscore = FactScoringModel(config, self.best_model_path)
         self.model_loaded = False
         self.nerd = self.config["nerd"]

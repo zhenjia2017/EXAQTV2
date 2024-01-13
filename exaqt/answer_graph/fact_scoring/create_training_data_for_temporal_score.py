@@ -15,7 +15,7 @@ class CreateDatasetTemporalFactScoring:
     def __init__(self, config):
         self.config = config
         self.logger = get_logger(__name__, config)
-        self.property_path = self.config["pro-info-path"]
+        self.property_path = os.path.join(self.config["path_to_data"], self.config["pro-info-path"])
         self.property = self._load_property()
         self.nerd = self.config["nerd"]
         self.fact_retriever = FactRetriever(config, self.property)
