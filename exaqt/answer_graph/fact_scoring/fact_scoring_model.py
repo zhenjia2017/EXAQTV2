@@ -86,13 +86,8 @@ class FactScoringModel(torch.nn.Module):
         print ("best_model_path")
         print (self.best_model_path)
         best_model = torch.load(self.best_model_path)
-        from collections import OrderedDict
-        new_state_dict = OrderedDict()
-        for k, v in best_model.items():
-            name = k[7:]  # remove `module.`
-            new_state_dict[name] = v
-        # load params
-        self.model.load_state_dict(new_state_dict)
+        # # load params
+        self.model.load_state_dict(best_model)
         if torch.cuda.is_available():
             self.model.cuda()
         self.set_eval_mode()
