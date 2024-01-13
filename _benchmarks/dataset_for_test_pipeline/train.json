@@ -1,0 +1,3687 @@
+[
+    {
+        "Id": 1,
+        "Question": "what is the end time for the daily show as rachael harris has cast member",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2003-03-20T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 2,
+        "Question": "what medium is preceded by grand theft auto v",
+        "Temporal signal": [
+            "BEFORE"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5294",
+                "WikidataLabel": "DVD",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/DVD"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 3,
+        "Question": "what is jeremy corbyn's position and when was he chosen",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q215622",
+                "WikidataLabel": "2010 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2010_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q25052149",
+                "WikidataLabel": "2017 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2017_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q30173038",
+                "WikidataLabel": "2019 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2019_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3586935",
+                "WikidataLabel": "2015 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2015_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q428598",
+                "WikidataLabel": "2005 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2005_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q543609",
+                "WikidataLabel": "1992 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1992_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q590740",
+                "WikidataLabel": "2001 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2001_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q918466",
+                "WikidataLabel": "1983 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1983_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q918472",
+                "WikidataLabel": "1987 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1987_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q918503",
+                "WikidataLabel": "1997 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1997_United_Kingdom_general_election"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 4,
+        "Question": "what island did james cook land on in 1778",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q192626",
+                "WikidataLabel": "Hawaiian Islands",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/hawaiian_islands"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 5,
+        "Question": "what was the wedding date of nikolay gumilev and anna akhmatova",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1910-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 6,
+        "Question": "who was the president in 2012 of the country where the bribri language was spoken",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q57321",
+                "WikidataLabel": "Laura Chinchilla",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Laura_Chinchilla"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 7,
+        "Question": "until when was c. everett koop the surgeon general of the u.s.",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1989-10-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 8,
+        "Question": "what is the launch date of the place of activity of marine le pen",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "-0011-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "0979-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 9,
+        "Question": "american naval leader during the world war 2",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q366731",
+                "WikidataLabel": "Ernest King",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/ernest_king"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 10,
+        "Question": "who married grover cleveland on june 2, 1886",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q233644",
+                "WikidataLabel": "Frances Folsom Cleveland Preston",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Frances_Cleveland"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 11,
+        "Question": "who did brett gardner play for in 2008",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q213417",
+                "WikidataLabel": "New York Yankees",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/New_York_Yankees"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 12,
+        "Question": "what is member of of victor hugo and follows",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q354373",
+                "WikidataLabel": "N\u00e9pomuc\u00e8ne Lemercier",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/N%C3%A9pomuc%C3%A8ne_Lemercier"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 13,
+        "Question": "david trimble, the first minister of northern ireland, finishes at what time",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2001-07-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2002-10-14T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 14,
+        "Question": "when did tiger woods receive best male athlete espy award",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q536900",
+                "WikidataLabel": "Ken Griffey Jr.",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Ken_Griffey_Jr."
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 15,
+        "Question": "what is the start time for karl pearson has member of as american academy of arts and sciences",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1928-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 16,
+        "Question": "what is record label of patti smith that is start time is 1975-0-0",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q664167",
+                "WikidataLabel": "Arista",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Arista_Records"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 17,
+        "Question": "tell me what morgan freeman was nominated for in the 32nd tony awards.",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1474410",
+                "WikidataLabel": "Tony Award for Best Featured Actor in a Play",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Tony_Award_for_Best_Featured_Actor_in_a_Play"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 18,
+        "Question": "who is the long snapper currently for the steelers",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5606394",
+                "WikidataLabel": "Greg Warren",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Greg_Warren_(American_football)"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 19,
+        "Question": "which class of government, does the location where the breed ga noi originated at have currently",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q50686",
+                "WikidataLabel": "single-party state",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Single-party_state"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q842112",
+                "WikidataLabel": "socialist state",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Socialist_state"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q849866",
+                "WikidataLabel": "communist state",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Communist_state"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 20,
+        "Question": "when did marta suplicy become the head of government for s\u00e3o paulo",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2001-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 21,
+        "Question": "neighbouring countries did germany capture in the 1940s",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q142",
+                "WikidataLabel": "France",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/france"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q31",
+                "WikidataLabel": "Belgium",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/belgium"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q32",
+                "WikidataLabel": "Luxembourg",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/luxembourg"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q35",
+                "WikidataLabel": "Denmark",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/denmark"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q36",
+                "WikidataLabel": "Poland",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/poland"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q41",
+                "WikidataLabel": "Greece",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/greece"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q55",
+                "WikidataLabel": "Netherlands",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/netherlands"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 22,
+        "Question": "what is the end time for pisa has country as grand duchy of tuscany",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1801-03-20T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1859-12-07T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 23,
+        "Question": "when was alastair cook was relieved from the sports team bedfordshire county cricket club",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2002-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 24,
+        "Question": "what is the start time for sarajevo has twinned administrative body as serre chevalier",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1995-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 25,
+        "Question": "which kennedy died first",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q9696",
+                "WikidataLabel": "John F. Kennedy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 26,
+        "Question": "what year did brandon roy get drafted",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1471357",
+                "WikidataLabel": "2006 NBA Draft",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2006_NBA_draft"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 27,
+        "Question": "who is the 2011 governor of the state where altamaha river is lcoated",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q179732",
+                "WikidataLabel": "Nathan Deal",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Nathan_Deal"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q525362",
+                "WikidataLabel": "Sonny Perdue",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Sonny_Perdue"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 28,
+        "Question": "until 1964, who was gilles deleuze employed by",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q280413",
+                "WikidataLabel": "National Center for Scientific Research",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/French_National_Centre_for_Scientific_Research"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 29,
+        "Question": "what is spouse of carl akeley that is end time is 1923-0-0",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3021599",
+                "WikidataLabel": "Delia Akeley",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Delia_Akeley"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 30,
+        "Question": "in which year of world series did the new york yankees win where the results were 4-2",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1051837",
+                "WikidataLabel": "1962 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1962_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1051846",
+                "WikidataLabel": "1961 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1961_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1316734",
+                "WikidataLabel": "1998 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1998_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1316770",
+                "WikidataLabel": "1999 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1999_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1316802",
+                "WikidataLabel": "1996 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1996_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q155391",
+                "WikidataLabel": "2009 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2009_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3130846",
+                "WikidataLabel": "1949 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1949_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4561415",
+                "WikidataLabel": "1923 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1923_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4562126",
+                "WikidataLabel": "1927 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1927_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4562311",
+                "WikidataLabel": "1928 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1928_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4563898",
+                "WikidataLabel": "1936 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1936_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4564126",
+                "WikidataLabel": "1937 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1937_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4564356",
+                "WikidataLabel": "1938 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1938_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4564598",
+                "WikidataLabel": "1939 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1939_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4564977",
+                "WikidataLabel": "1941 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1941_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4565294",
+                "WikidataLabel": "1943 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1943_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6145292",
+                "WikidataLabel": "1951 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1951_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6147072",
+                "WikidataLabel": "1932 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1932_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845534",
+                "WikidataLabel": "1950 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1950_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845599",
+                "WikidataLabel": "1956 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1956_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845603",
+                "WikidataLabel": "1952 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1952_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845607",
+                "WikidataLabel": "1953 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1953_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845627",
+                "WikidataLabel": "1947 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1947_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845650",
+                "WikidataLabel": "1977 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1977_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845655",
+                "WikidataLabel": "1978 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1978_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845665",
+                "WikidataLabel": "1958 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1958_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q922550",
+                "WikidataLabel": "2000 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2000_World_Series"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 31,
+        "Question": "this city had the first woman mayor who was elected in 1979",
+        "Temporal signal": [
+            "ORDINAL",
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit",
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1297",
+                "WikidataLabel": "Chicago",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/chicago"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 32,
+        "Question": "where was john lennon standing when he was shot",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q60",
+                "WikidataLabel": "New York City",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/New_York_City"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 33,
+        "Question": "who was the new governor of the location where the movie \"blood widow\" took place in 2011",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q439729",
+                "WikidataLabel": "Rick Scott",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Rick_Scott"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 34,
+        "Question": "who is the first american to visit space",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q174979",
+                "WikidataLabel": "Alan Shepard",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/alan_shepard"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 35,
+        "Question": "who won best actor when alfred junge won best art direction",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q181786",
+                "WikidataLabel": "Ronald Colman",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Ronald_Colman"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 36,
+        "Question": "when was marissa mayer never again working at yahoo",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2017-06-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 37,
+        "Question": "what was jay-z first single",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q16996747",
+                "WikidataLabel": "In My Lifetime",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/in_my_lifetime_(song)"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 38,
+        "Question": "what is the end time for kwto am 's frank peters jr.",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1957-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 39,
+        "Question": "in 1673, holy roman emperor leopold i ended a relationship with which woman",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q158659",
+                "WikidataLabel": "Margaret Theresa of Spain",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Margaret_Theresa_of_Spain"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 40,
+        "Question": "what is member of sports team of kevin keegan that is end time is 1982-1-1",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q18732",
+                "WikidataLabel": "Southampton F.C.",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Southampton_F.C."
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 41,
+        "Question": "which book did ann martin write in 2003",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7750804",
+                "WikidataLabel": "The Meanest Doll in the World",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/The_Meanest_Doll_in_the_World"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 42,
+        "Question": "what was the administrative body of cairo governate on 1990-10-23",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1490",
+                "WikidataLabel": "Tokyo",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Tokyo"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 43,
+        "Question": "what year did martin luther king jr get his doctorate degree from boston university",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1955-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 44,
+        "Question": "which movie won best cinematography when sam mendes won best director",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q25139",
+                "WikidataLabel": "American Beauty",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/American_Beauty_(1999_film)"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 45,
+        "Question": "what is the end time for simferopol has capital of as crimean socialist soviet republic",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1919-06-26T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 46,
+        "Question": "when did heidi klum and seal marry",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2005-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 47,
+        "Question": "in 1967, what was igor sikorsky awarded",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q737051",
+                "WikidataLabel": "National Medal of Science",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/National_Medal_of_Science"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 48,
+        "Question": "what is spouse of ingrid bergman and start time",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q53003",
+                "WikidataLabel": "Roberto Rossellini",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Roberto_Rossellini"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1950-05-24T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1958-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 49,
+        "Question": "what are the athletes who were born on 04/26/1882",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6074142",
+                "WikidataLabel": "Irv Higginbotham",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Irv_Higginbotham"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6235084",
+                "WikidataLabel": "John George",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/John_George_(athlete)"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 50,
+        "Question": "what is unit symbol of adaptation of of foot per second",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "fot"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "ft"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "futoj"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "l\u00e1b"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "picioare"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "piedi"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "pieds"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "p\u00e9s"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "s"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "san."
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "st\u00f3p"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u0441"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u0441\u0442\u0430\u043f\u043a\u0438"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u0444\u0443\u0442"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u0444\u0443\u0442\u0456\u0432"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u062b"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u067e\u0627"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u09ab\u09c1\u099f"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u0d05\u0d1f\u0d3f"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "\u82f1\u5c3a"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 51,
+        "Question": "what was the first newspaper called in australia",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2041168",
+                "WikidataLabel": "Sydney Gazette",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Sydney_Gazette"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 52,
+        "Question": "what is the end time for norman lear has spouse as frances lear",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1986-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 53,
+        "Question": "what is the end time for union of european football associations has chairperson as artemio franchi",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1983-08-12T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 54,
+        "Question": "what was the gross domestic product of la rioja in 2015",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "7974000000"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 55,
+        "Question": "who did george hw bush go against during his election",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q319099",
+                "WikidataLabel": "Michael Dukakis",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/michael_dukakis"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 56,
+        "Question": "what is formed on date of agent of battle of quiberon bay",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1707-05-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 57,
+        "Question": "what was bruce willis' first movie",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q884135",
+                "WikidataLabel": "Blind Date",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/blind_date_(1987_film)"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 58,
+        "Question": "when did konstantin rokossovsky start bearing the military rank of komdiv",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1935-11-26T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 59,
+        "Question": "what is population of central visayas that is point in time is 2015-8-1",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "6041903"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "7396898"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 60,
+        "Question": "what is winner and point in time of tiger woods has award received as best male athlete espy award",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q536900",
+                "WikidataLabel": "Ken Griffey Jr.",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Ken_Griffey_Jr."
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 61,
+        "Question": "who was the first civilization to have irrigation systems",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q11453",
+                "WikidataLabel": "irrigation",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/irrigation"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 62,
+        "Question": "give me capital that capital of estonia and which that starts with 't'",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "Tallinn"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 63,
+        "Question": "explain and name the twinned administrative body of cagliari starting in 2011",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1829",
+                "WikidataLabel": "Kaliningrad",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Kaliningrad"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 64,
+        "Question": "who is the 2012 falcons quarterback and has passing attempts statistics of 1",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2083133",
+                "WikidataLabel": "Luke McCown",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Luke_McCown"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5291122",
+                "WikidataLabel": "Dominique Davis",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Dominique_Davis"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q984327",
+                "WikidataLabel": "Matt Ryan",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 65,
+        "Question": "who was the first american to enter outer space",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q174979",
+                "WikidataLabel": "Alan Shepard",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/alan_shepard"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 66,
+        "Question": "in 1952, who was the new head of state of south australia",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q9682",
+                "WikidataLabel": "Elizabeth II",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Elizabeth_II"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 67,
+        "Question": "the team won the 1992 nba finals championship has who as the current coach",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q580808",
+                "WikidataLabel": "Fred Hoiberg",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Fred_Hoiberg"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 68,
+        "Question": "which team did wayne rooney play for before joining manchester united",
+        "Temporal signal": [
+            "BEFORE"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5794",
+                "WikidataLabel": "Everton F.C.",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Everton_F.C."
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 69,
+        "Question": "when emily dickinson father dies",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1874-06-16T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 70,
+        "Question": "what age was obama when he went to harvard university",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1961-08-04T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "27"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 71,
+        "Question": "who was the first leader of mali",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q175772",
+                "WikidataLabel": "Sunparata kaita",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/sundiata_keita"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 72,
+        "Question": "what superman actors birthday is on 31st july",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q313788",
+                "WikidataLabel": "Dean Cain",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Dean_Cain"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 73,
+        "Question": "which number of points/goals/set scored and number of matches played and fritz walter has member of sports team as germany national football team",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "33"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "61"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 74,
+        "Question": "what country led by a religious organization since 07-31-1973 fought in the gulf war",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q142",
+                "WikidataLabel": "France",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/France"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q145",
+                "WikidataLabel": "United Kingdom",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_Kingdom"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q30",
+                "WikidataLabel": "United States of America",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_States"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q408",
+                "WikidataLabel": "Australia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Australia"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q414",
+                "WikidataLabel": "Argentina",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Argentina"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q796",
+                "WikidataLabel": "Iraq",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Iraq"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q851",
+                "WikidataLabel": "Saudi Arabia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 75,
+        "Question": "find the assaults that happened on april the 7th, 1995",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4335326",
+                "WikidataLabel": "Samashki massacre",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Samashki_massacre"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 76,
+        "Question": "what is child of john adams that is date of death is 1848-2-23",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q11816",
+                "WikidataLabel": "John Quincy Adams",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/John_Quincy_Adams"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 77,
+        "Question": "give me lected in lligan on 11-1-2013",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "138744"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 78,
+        "Question": "what was tom hanks 3rd oscar nomination",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q134773",
+                "WikidataLabel": "Forrest Gump",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/forrest_gump"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 79,
+        "Question": "what is the end time for windows 10 has software version as 10.0.17134.81",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2019-11-12T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 80,
+        "Question": "who played dumbledore in the first harry potter",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q106775",
+                "WikidataLabel": "Richard Harris",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/richard_harris"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 81,
+        "Question": "when did lorenzo medici died",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1492-04-08T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 82,
+        "Question": "what is position held of gianni agnelli and end date",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q826589",
+                "WikidataLabel": "senatore a vita",
+                "WikipediaURL": ""
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1991-06-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 83,
+        "Question": "what articles are in the july 1967 issue of frontier times",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [],
+        "Data source": "Free917 (ACL 2013)",
+        "Question creation date": "2013-08-04",
+        "Data set": "train"
+    },
+    {
+        "Id": 84,
+        "Question": "what is end time and start time of barbara walters has spouse as lee guber",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1963-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1976-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 85,
+        "Question": "when did sandra day o'connor become the associate justice of the supreme court of the united states",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1981-09-21T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 86,
+        "Question": "name the award received by jean tirole in 1998",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6265940",
+                "WikidataLabel": "John von Neumann Award",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/John_von_Neumann_Award"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 87,
+        "Question": "what year did the champion of the 1995 nba finals first won the championship",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4589592",
+                "WikidataLabel": "1994 NBA Finals",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1994_NBA_Finals"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 88,
+        "Question": "who is amy grant's first husband",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5524835",
+                "WikidataLabel": "Gary Chapman",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Gary_Chapman_(musician)"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 89,
+        "Question": "what is end time and start time of tbilisi has located in the administrative territorial entity as georgian soviet socialist republic",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1923-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1991-04-08T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 90,
+        "Question": "what was charles babbge scholastic degree i 1814",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1765120",
+                "WikidataLabel": "Bachelor of Arts",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Bachelor_of_Arts"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 91,
+        "Question": "who was the first woman to be mayor",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3631124",
+                "WikidataLabel": "Susanna M. Salter",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/susanna_m._salter"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 92,
+        "Question": "when was king richard 3 killed",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1485-08-22T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 93,
+        "Question": "the anime series lupin the third was created by whom",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1370780",
+                "WikidataLabel": "Monkey Punch",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Monkey_Punch"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 94,
+        "Question": "what team does lamar odom play for 2013",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q976396",
+                "WikidataLabel": "Los Angeles Clippers",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Los_Angeles_Clippers"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "train"
+    },
+    {
+        "Id": 95,
+        "Question": "what is given name of louis agassiz that is series ordinal is 1",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7521081",
+                "WikidataLabel": "Jean",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jean_(male_given_name)"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 96,
+        "Question": "when was sevastopol placed in the administrative territorial entity of ukrainian soviet socialist republic",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1991-08-24T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 97,
+        "Question": "when did joseph liouville begin and end the time as an employer at coll\u00e8ge de france",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1850-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1882-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 98,
+        "Question": "when was the last time the ny giants went to the super bowl",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q849079",
+                "WikidataLabel": "Super Bowl XLVI",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_XLVI"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 99,
+        "Question": "who was the newscaster in 1948 on cbs evening news",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4355264",
+                "WikidataLabel": "Douglas Edwards",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Douglas_Edwards"
+            }
+        ],
+        "Data source": "Free917 (ACL 2013)",
+        "Question creation date": "2013-08-04",
+        "Data set": "train"
+    },
+    {
+        "Id": 100,
+        "Question": "what nation did the united states invaded in 1983",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q769",
+                "WikidataLabel": "Grenada",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Grenada"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 101,
+        "Question": "what year did sam elliott and kathryn ross marry",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1984-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 102,
+        "Question": "when did ernest borgnine get married to katy jurado, and when did they divorce",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1959-12-31T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1963-06-03T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 103,
+        "Question": "when is the end time for luis miguel domingu\u00edn has spouse as lucia bos\u00e8",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1967-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 104,
+        "Question": "why did ramsay macdonald get elected to the member of the 32d parliament of the uk and why did he stop",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3084303",
+                "WikidataLabel": "1922 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1922_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q741182",
+                "WikidataLabel": "dissolution of parliament",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Dissolution_of_parliament"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 105,
+        "Question": "what team, that michael essien played for, did cristiano ronaldo play for in 2012",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q267245",
+                "WikidataLabel": "Portugal national football team",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Portugal_national_football_team"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q8682",
+                "WikidataLabel": "Real Madrid CF",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 106,
+        "Question": "give me uninformed search that contains the word first in their name",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q325904",
+                "WikidataLabel": "breadth-first search",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Breadth-first_search"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q816319",
+                "WikidataLabel": "depth-first search",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Depth-first_search"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "breadth-first search"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "depth-first search"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 107,
+        "Question": "what is the start time for nancy reagan has spouse as ronald reagan",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1952-03-04T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 108,
+        "Question": "who did ronaldinho play for in 2011 with the team mascot named flamengo vulture",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1543",
+                "WikidataLabel": "Associazione Calcio Milan",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/A.C._Milan"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q17479",
+                "WikidataLabel": "Clube de Regatas do Flamengo",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 109,
+        "Question": "what was the last year the la kings won the cup",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q16958416",
+                "WikidataLabel": "2014 Stanley Cup Finals",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2014_Stanley_Cup_Finals"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2071940",
+                "WikidataLabel": "2012 Stanley Cup Finals",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2012_Stanley_Cup_Finals"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 110,
+        "Question": "at what time did tiraspol leave the soviet union",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1991-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 111,
+        "Question": "what is norman mailer nominated for who's point in time is 1994-0-0",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q580574",
+                "WikidataLabel": "Neustadt International Prize for Literature",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 112,
+        "Question": "whence was the person who said \"blessed are they that mourn: for they shall be comforted\" after he was crucified",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1003997",
+                "WikidataLabel": "Judea",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Judea_(Roman_province)"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 113,
+        "Question": "tell me when bobby moore became a seattle sounder.",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1978-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 114,
+        "Question": "when did anne hathaway start going to unused york college and when did she graduate",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1995-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 115,
+        "Question": "what award did dolores huerta receive in 2012",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q17144",
+                "WikidataLabel": "Presidential Medal of Freedom",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Presidential_Medal_of_Freedom"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q17277947",
+                "WikidataLabel": "Labor Hall of Honor",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Labor_Hall_of_Honor"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5020532",
+                "WikidataLabel": "California Hall of Fame",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/California_Hall_of_Fame"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 116,
+        "Question": "what is award received of hugh lofting that is point in time is 1923-0-0",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q622813",
+                "WikidataLabel": "Newbery Medal",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Newbery_Medal"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 117,
+        "Question": "what is the point in time for saint kitts and nevis has inflation rate as 6.5",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2008-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 118,
+        "Question": "on what date did johannes v jensen stop residing in viborg",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1893-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 119,
+        "Question": "what is the start time for pervez musharraf has position held as chairman joint chiefs of staff committee",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-10-08T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 120,
+        "Question": "what territories did israel gain control of in the 6 day war of 1967",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q36678",
+                "WikidataLabel": "West Bank",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/west_bank"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q36755",
+                "WikidataLabel": "Sinai Peninsula",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/sinai_peninsula"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q39760",
+                "WikidataLabel": "Gaza Strip",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/gaza_strip"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q83210",
+                "WikidataLabel": "Golan Heights",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/golan_heights"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 121,
+        "Question": "who did henry viii divorce first",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q162819",
+                "WikidataLabel": "Catherine of Aragon",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/catherine_of_aragon"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 122,
+        "Question": "which person holds the presidency of the nation where magallanes y la antartica chilena region 2011 were located",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q306",
+                "WikidataLabel": "Sebastian Pi\u00f1era",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Pi%C3%B1era"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 123,
+        "Question": "which album did eddie rabbitt release in march 1986",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7278646",
+                "WikidataLabel": "Rabbitt Trax",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Rabbitt_Trax"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "train"
+    },
+    {
+        "Id": 124,
+        "Question": "what was the first book of shakespeare",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q833645",
+                "WikidataLabel": "First Folio",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/first_folio"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 125,
+        "Question": "what city hosted the 1998 winter olympics",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q128849",
+                "WikidataLabel": "Nagano",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/nagano,_nagano"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 126,
+        "Question": "where is the 2012 ncaa basketball tournament played at that is located at 1001 fifth avenue",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q34404",
+                "WikidataLabel": "New Orleans",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/New_Orleans"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 127,
+        "Question": "which years did the 1983 champions go to the world series",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1581759",
+                "WikidataLabel": "1983 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1983_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4295890",
+                "WikidataLabel": "1966 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1966_World_Series"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4295895",
+                "WikidataLabel": "1970 World Series",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1970_World_Series"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 128,
+        "Question": "what did logo invent while living in the united states",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q335027",
+                "WikidataLabel": "Seymour Papert",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Seymour_Papert"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 129,
+        "Question": "what is nominated for of burt reynolds that is point in time is 1997-1-1",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q106291",
+                "WikidataLabel": "Academy Award for Best Supporting Actor",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Supporting_Actor"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 130,
+        "Question": "what is date of death and date of birth of frederick william i of prussia has child as anna amalia, abbess of quedlinburg",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1723-11-09T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1787-03-30T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 131,
+        "Question": "what is the end time for rainer werner fassbinder has spouse as ingrid caven",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1972-09-27T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 132,
+        "Question": "what are the dwarf planet discoveries made on 3/31/2005",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q604",
+                "WikidataLabel": "Makemake",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Makemake"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 133,
+        "Question": "what is time of implies of turbulence",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1961-07-19T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 134,
+        "Question": "what was the capital of alabama through 1846",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q79580",
+                "WikidataLabel": "Tuscaloosa",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Tuscaloosa,_Alabama"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 135,
+        "Question": "what is spouse of alfred kinsey that is end time is 1956-0-0",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5126026",
+                "WikidataLabel": "Clara McMillen",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Clara_McMillen"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 136,
+        "Question": "when did tony walton become the spouse of julie andrews",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1959-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 137,
+        "Question": "who is the present chief justice of supreme court of india for 2010",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3595282",
+                "WikidataLabel": "K. G. Balakrishnan",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/k._g._balakrishnan"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3647356",
+                "WikidataLabel": "S. H. Kapadia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/s._h._kapadia"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "train"
+    },
+    {
+        "Id": 138,
+        "Question": "what was the award presented to kareem abdul-jabbar in 1980",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1465181",
+                "WikidataLabel": "NBA All-Defensive Team",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/NBA_All-Defensive_Team"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q222047",
+                "WikidataLabel": "NBA Most Valuable Player Award",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/NBA_Most_Valuable_Player_Award"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q674359",
+                "WikidataLabel": "All-NBA Team",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/All-NBA_Team"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 139,
+        "Question": "who became federal chancellor of germany after gerhard schroder",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2518",
+                "WikidataLabel": "Helmut Kohl",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Helmut_Kohl"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 140,
+        "Question": "when was arthur b. langlie mayor of seattle",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1938-03-08T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1940-03-05T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 141,
+        "Question": "what is position held of harry s. truman that is start time is 1935-1-3",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4416090",
+                "WikidataLabel": "United States senator",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_States_senator"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 142,
+        "Question": "when did the capital of sonsonate for the federal republic of central america end",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1834-06-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 143,
+        "Question": "what follows the european union after it is dissolved, abolished or what follows the european union after it is dissolved, abolished or demolished",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q161549",
+                "WikidataLabel": "European Coal and Steel Community",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q189946",
+                "WikidataLabel": "Western European Union",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Western_European_Union"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q52847",
+                "WikidataLabel": "European Economic Community",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/European_Economic_Community"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q845737",
+                "WikidataLabel": "Treaty of Brussels",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Treaty_of_Brussels"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1993-11-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2002-07-23T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2009-12-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2010-03-31T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2010-05-21T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 144,
+        "Question": "what award did hilary mantel receive on 1-1-2009",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q160082",
+                "WikidataLabel": "Booker Prize",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Booker_Prize"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 145,
+        "Question": "where is the \"on the last frontier\" lyrics' author buried",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q129795",
+                "WikidataLabel": "Westminster Hall and Burying Ground",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Westminster_Hall_and_Burying_Ground"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 146,
+        "Question": "which politician was leading france as of 2012 and ended their last government psoition until 2007-03-26",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q157",
+                "WikidataLabel": "Fran\u00e7ois Hollande",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q329",
+                "WikidataLabel": "Nicolas Sarkozy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 147,
+        "Question": "when was the gold metal won by the sponsee of covergirl",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q8567",
+                "WikidataLabel": "2008 Summer Olympics",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    },
+    {
+        "Id": 148,
+        "Question": "what is head of government of calabria that is end time is 2014-4-29",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3771430",
+                "WikidataLabel": "Giuseppe Scopelliti",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Giuseppe_Scopelliti"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 149,
+        "Question": "which comes before the anti-particle of antideuterium",
+        "Temporal signal": [
+            "BEFORE"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q54389",
+                "WikidataLabel": "tritium",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Tritium"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "train"
+    },
+    {
+        "Id": 150,
+        "Question": "what other years did the champion of the 2011 afc championship game win the superbowl",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1188005",
+                "WikidataLabel": "Super Bowl IX",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_IX"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q585801",
+                "WikidataLabel": "Super Bowl XIV",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_XIV"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q620277",
+                "WikidataLabel": "Super Bowl X",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_X"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q632786",
+                "WikidataLabel": "Super Bowl XIII",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_XIII"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q853768",
+                "WikidataLabel": "Super Bowl XLIII",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_XLIII"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q904928",
+                "WikidataLabel": "Super Bowl XL",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Super_Bowl_XL"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "train"
+    }
+]
