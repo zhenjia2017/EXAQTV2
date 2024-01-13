@@ -1,0 +1,158 @@
+name: "exaqt"
+log_level: "INFO"
+
+# Construct pipeline
+erf: clocq_fact
+agra: answer_graph
+apre: answer_predict
+
+#################################################################
+#  Benchmark specific settings
+#################################################################
+benchmark: "dataset_for_test_pipeline"
+benchmark_path: "_benchmarks"
+
+train_input_path: "train.json"
+dev_input_path: "dev.json"
+test_input_path: "test.json"
+
+path_to_intermediate_results: "_intermediate_representations"
+
+#################################################################
+#  Data and models specific settings
+#################################################################
+path_to_data: "_data"
+
+#################################################################
+#  Parameters - NERD
+#################################################################
+#you can choose different combination of NERD methods: elq, wat, tagme, elq-wat, elq-tagme, elq-tagme-wat
+nerd: "elq-wat"
+wat_threshold: 0
+tagme_threshold: 0
+elq_models_path: "BLINK/models"
+nerd_use_cache: True
+nerd_cache_path: "nerd_cache/nerd"
+MY_GCUBE_WAT_TOKEN: 'f08bb655-6465-4cdb-a5b2-7b7195cea1d7-843339462'
+MY_GCUBE_TAGME_TOKEN: '9dc5f6c0-3040-411b-9687-75ca53249072-843339462'
+
+#################################################################
+#  Parameters - CLOCQ
+#################################################################
+clocq_params:
+  h_match: 0.4
+  h_rel: 0.2
+  h_conn: 0.3
+  h_coh: 0.1
+  d: 20
+  #k: "AUTO"
+  k: 5
+  p_setting: 1000 # setting for search_space function
+  bm25_limit: False
+clocq_p: 1000 #  setting for neighborhood function(s)
+clocq_use_api: True # using CLOCQClientInterface
+clocq_host: "https://clocq.mpi-inf.mpg.de/api" # host for client
+clocq_port: "443" # port for client
+
+#################################################################
+#  Parameters - connectivity of seed entities
+#################################################################
+max_fact_number: 50
+
+#################################################################
+#  Parameters - Fact Scoring
+#################################################################
+bert_model_path: "bert_base_cased"
+best_model_file: "phase1_model.bin"
+fs_test_batch_size: 128
+fs_max_evidences: 25
+fs_model_save_path: "fact_scoring"
+fs_max_input_length: 512
+fs_max_pos_evidences: 1
+fs_max_neg_evidences: 5
+#################################################################
+#  Parameters - GST Construction
+#################################################################
+top-gst-number: 25
+pro-info-path: "wikidata_property_dictionary.json"
+
+#################################################################
+#  Parameters - Temporal Fact Scoring
+#################################################################
+best_temporal_model_file: "phase2_model.bin"
+temporal_fs_test_batch_size: 128
+temporal_fs_max_evidences: 25
+temporal_fs_max_input_length: 512
+temporal_fs_max_pos_evidences: 1
+temporal_fs_max_neg_evidences: 5
+
+#################################################################
+#  Parameters - Answer Predict
+#################################################################
+answer_predict_path: "answer_predict"
+
+#################################################################
+#  Parameters - Relation Question Embeddings
+#################################################################
+wikipedia2vec_path: "wikipedia2vec/wikipedia2vec_trained"
+word_dim: 100
+question_wikiemb_path: "graftnet/question_wikiemb_100d.pkl"
+relation_wikiemb_path: "graftnet/relation_wikiemb_100d.pkl"
+
+#################################################################
+#  Parameters - Dictionaries
+#################################################################
+entity2id: "entities.txt"
+date2id: "dates.txt"
+relation2id: "relations.txt"
+trelation2id: "trelations.txt"
+word2id: "words.txt"
+category2id: "categories.txt"
+signal2id: "signals.txt"
+tempfact2id: 'tempfacts2id.pkl'
+
+#################################################################
+#  Parameters - Embeddings
+#################################################################
+relation_emb: 'relation_emb_100d.npy'
+word_emb: 'word_emb_100d.npy'
+entity_emb: 'entity_emb_100d.npy'
+date_emb: 'date_te_emb_100d.npy'
+tempfact_te_emb: 'tempfact_te_emb_500d.npy'
+tempfact_emb: 'tempfact_emb_400d.npy'
+
+#################################################################
+#  Parameters - RGCN
+#################################################################
+to_save_model: True
+save_model_file: 'best_model_entqtkg'
+pred_file: 'pred_entqtkg'
+load_model_file: 'best_model_entqtkg'
+model_folder:
+TCE: True
+TSE: True
+TE: True
+TEE: True
+ATR: True
+fact_dropout: 0.1
+num_layer: 3
+max_query_word: 40
+max_temp_fact: 40
+entity_dim: 100
+tem_dim: 100
+fact_dim: 400
+pagerank_lambda: 0.8
+corner_lambda: 1
+fact_scale: 3
+
+# optimization
+num_epoch: 100
+batch_size: 25
+gradient_clip: 1
+learning_rate: 0.001
+lstm_dropout: 0.3
+linear_dropout: 0.2
+is_debug: True
+
+
+
