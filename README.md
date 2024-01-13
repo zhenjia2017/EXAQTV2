@@ -24,12 +24,25 @@ You need to install and build the environment for running [ELQ](https://github.c
 
 ## Reproduce paper results
 First, you need to run the scripts for NERD on the dataset. Please follow the instruction in README-exaqt-nerd.md to run NERD on the dataset.
-
-EXAQT includes two stages: answer graph construction and answer prediction.
-For reproducing the results on TimeQuestions, run the following two commands respectively:
+Then you need to run the script pipeline.py. EXAQT includes two stages: answer graph construction and answer prediction.
+For reproducing the results on TimeQuestions, run the following two scripts respectively:
 ``` bash
     bash scripts/pipeline.sh --answer-graph config/timequestions/config.yml
     bash scripts/pipeline.sh --answer-predict config/timequestions/config.yml
 ```
+
+## Evaluating EXAQT on other benchmarks
+-- Reformat the benchmark as the same format as the TimeQuestions
+-- Put the reformatted benchmark under the "[_benchmarks](_benchmarks)" folder
+-- Update the config.yml with replacing the name of "benchmark", "train_input_path", "dev_input_path" and "test_input_path" respectively
+
+We provide an example benchmark named "dataset_for_test_pipeline"
+For evaluating this benchmark, run the following two scripts respectively:
+
+``` bash
+    bash scripts/pipeline.sh --answer-graph config/dataset_for_test_pipeline/config.yml
+    bash scripts/pipeline.sh --answer-predict config/dataset_for_test_pipeline/config.yml
+```
+
 
 
