@@ -1,0 +1,4259 @@
+[
+    {
+        "Id": 12945,
+        "Question": "what time is justin biebers birthday",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1994-03-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q43297",
+                0.11524233967065811,
+                "time",
+                "Time"
+            ],
+            [
+                "Q185117",
+                0.04694868624210358,
+                "justin",
+                "Justin Martyr"
+            ],
+            [
+                "Q15408014",
+                0.07899382710456848,
+                "birthday",
+                "Birthday"
+            ]
+        ],
+        "elq": [
+            [
+                "Q34086",
+                -1.1931326389312744,
+                "justin bieber"
+            ],
+            [
+                "Q47223",
+                -4.187231540679932,
+                "birthday"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.11345251112876711,
+                "time"
+            ],
+            [
+                [
+                    "Q34086",
+                    "Justin Bieber"
+                ],
+                0.36839815013225496,
+                "justin biebers"
+            ]
+        ]
+    },
+    {
+        "Id": 12946,
+        "Question": "what was jorge luis borges awarded in 1971",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q277787",
+                "WikidataLabel": "Jerusalem Prize",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jerusalem_Prize"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q909",
+                0.5,
+                "jorge luis borges",
+                "Jorge Luis Borges"
+            ]
+        ],
+        "elq": [
+            [
+                "Q909",
+                -0.43383824825286865,
+                "jorge luis borges"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q909",
+                    "Jorge Luis Borges"
+                ],
+                0.22994824838020236,
+                "jorge luis borges"
+            ]
+        ]
+    },
+    {
+        "Id": 12947,
+        "Question": "what was the first book charles dickens wrote",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q460583",
+                "WikidataLabel": "The Pickwick Papers",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/The_Pickwick_Papers"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q189378",
+                0.09954021126031876,
+                "first book",
+                "Twilight"
+            ],
+            [
+                "Q2743",
+                0.10178164392709732,
+                "book",
+                "musical"
+            ],
+            [
+                "Q5686",
+                0.696894645690918,
+                "charles dickens",
+                "Charles Dickens"
+            ]
+        ],
+        "elq": [
+            [
+                "Q5686",
+                -0.34829428791999817,
+                "charles dickens"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q5686",
+                    "Charles Dickens"
+                ],
+                0.7533649555224207,
+                "charles dickens"
+            ]
+        ]
+    },
+    {
+        "Id": 12948,
+        "Question": "what is population of vyso\u010dina region that is point in time is 2016-1-1",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "509475"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q11188",
+                0.11273754388093948,
+                "population",
+                "world population"
+            ],
+            [
+                "Q11471",
+                0.5,
+                "vyso\u010dina region",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.5,
+                "vyso\u010dina region",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q190930",
+                -0.9782739281654358,
+                "vysocina region"
+            ],
+            [
+                "Q1790144",
+                -4.1435346603393555,
+                "point in time"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q2625603",
+                    "population"
+                ],
+                0.20209064964905127,
+                "population"
+            ],
+            [
+                [
+                    "Q44946",
+                    "point"
+                ],
+                0.1905771360555364,
+                "vyso\u010dina"
+            ],
+            [
+                [
+                    "Q11471",
+                    "time"
+                ],
+                0.20877599195655175,
+                "point"
+            ]
+        ]
+    },
+    {
+        "Id": 12949,
+        "Question": "what is the start time for freeman dyson award receipt for josiah willard gibbs lectureship",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1972-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q931492",
+                0.0806044414639473,
+                "start",
+                "START I"
+            ],
+            [
+                "Q43297",
+                0.07674092799425125,
+                "time",
+                "Time"
+            ],
+            [
+                "Q153717",
+                0.5722883343696594,
+                "freeman dyson",
+                "Freeman Dyson"
+            ],
+            [
+                "Q6943084",
+                0.25,
+                "dyson award",
+                "Mussabini Medal"
+            ],
+            [
+                "Q330190",
+                0.025188561528921127,
+                "receipt",
+                "receipt"
+            ],
+            [
+                "Q1522873",
+                0.5,
+                "josiah willard gibbs lectureship",
+                "Josiah Willard Gibbs Lectureship"
+            ]
+        ],
+        "elq": [
+            [
+                "Q153243",
+                -1.022776484489441,
+                "josiah willard gibbs"
+            ],
+            [
+                "Q153717",
+                -1.2111215591430664,
+                "freeman dyson award"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.04864494943269328,
+                "the start time"
+            ],
+            [
+                [
+                    "Q153717",
+                    "Freeman Dyson"
+                ],
+                0.34693630570998996,
+                "freeman dyson"
+            ],
+            [
+                [
+                    "Q153243",
+                    "Josiah Willard Gibbs"
+                ],
+                0.5317149222822372,
+                "josiah willard gibbs"
+            ]
+        ]
+    },
+    {
+        "Id": 12950,
+        "Question": "what was max steiner nominated for in the 19th academy awards",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4671338",
+                "WikidataLabel": "Academy Award for Best Original Musical Score",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Original_Musical"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q350704",
+                0.6622392535209656,
+                "max steiner",
+                "Max Steiner"
+            ],
+            [
+                "Q618536",
+                0.0005753678269684315,
+                "nominated",
+                "candidate"
+            ],
+            [
+                "Q917174",
+                0.6622392535209656,
+                "19th academy awards",
+                "19th Academy Awards"
+            ]
+        ],
+        "elq": [
+            [
+                "Q917174",
+                -0.3543364107608795,
+                "19th academy awards"
+            ],
+            [
+                "Q350704",
+                -0.4233660399913788,
+                "max steiner"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q350704",
+                    "Max Steiner"
+                ],
+                0.22504988740845455,
+                "max steiner"
+            ],
+            [
+                [
+                    "Q205304",
+                    "Nineteenth Amendment to the United States Constitution"
+                ],
+                0.04411401744390565,
+                "the 19th"
+            ]
+        ]
+    },
+    {
+        "Id": 12951,
+        "Question": "who is the wife of 2nd us president",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q206191",
+                "WikidataLabel": "Abigail Adams",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/abigail_adams"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.06958179175853729,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q7166256",
+                0.17669059336185455,
+                "wife",
+                "First Lady of the United States"
+            ],
+            [
+                "Q12357472",
+                0.131912499666214,
+                "2nd",
+                "New York's 2nd congressional district"
+            ],
+            [
+                "Q11696",
+                0.3596659302711487,
+                "us president",
+                "President of the United States"
+            ]
+        ],
+        "elq": [
+            [
+                "Q11696",
+                -3.1017308235168457,
+                "president"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q191789",
+                    "Martha Washington"
+                ],
+                0.49320524918855757,
+                "the wife"
+            ],
+            [
+                [
+                    "Q11696",
+                    "President of the United States"
+                ],
+                0.18476733681713142,
+                "president"
+            ]
+        ]
+    },
+    {
+        "Id": 12952,
+        "Question": "when did the basketball team whose head coach is stan van gundy most recently win the championship",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1022085",
+                "WikidataLabel": "2004 NBA Finals",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2004_NBA_Finals"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q5372",
+                0.38195639848709106,
+                "basketball",
+                "basketball"
+            ],
+            [
+                "Q327245",
+                0.13581249117851257,
+                "team",
+                "team"
+            ],
+            [
+                "Q3246315",
+                0.21593515574932098,
+                "head coach",
+                "head coach"
+            ],
+            [
+                "Q608639",
+                0.6475808024406433,
+                "stan van gundy",
+                "Stan Van Gundy"
+            ],
+            [
+                "Q1079023",
+                0.1574121117591858,
+                "win",
+                "championship"
+            ]
+        ],
+        "elq": [
+            [
+                "Q608639",
+                -0.2771133482456207,
+                "stan van gundy"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q6868278",
+                    "Minnesota Golden Gophers men's basketball"
+                ],
+                0.8413735136604091,
+                "the basketball team"
+            ],
+            [
+                [
+                    "Q3246315",
+                    "head coach"
+                ],
+                0.8831798898557356,
+                "head coach"
+            ],
+            [
+                [
+                    "Q608639",
+                    "Stan Van Gundy"
+                ],
+                0.7684702244766088,
+                "stan van gundy"
+            ],
+            [
+                [
+                    "Q19510",
+                    "EFL Championship"
+                ],
+                0.115150864089409,
+                "the championship"
+            ]
+        ]
+    },
+    {
+        "Id": 12953,
+        "Question": "what is the name of the current governor of georgia 2011 and is the politician that has tenure until 04-10-1995",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q179732",
+                "WikidataLabel": "Nathan Deal",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Nathan_Deal"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q525362",
+                "WikidataLabel": "Sonny Perdue",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Sonny_Perdue"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q6012592",
+                0.001671094330959022,
+                "name of",
+                "In the Name Of"
+            ],
+            [
+                "Q16953299",
+                0.02321041002869606,
+                "current",
+                "Current"
+            ],
+            [
+                "Q132050",
+                0.13226301968097687,
+                "governor",
+                "governor"
+            ],
+            [
+                "Q1428",
+                0.28685569763183594,
+                "georgia",
+                "Georgia"
+            ],
+            [
+                "Q330963",
+                0.13067887723445892,
+                "politician",
+                "politics of the United States"
+            ],
+            [
+                "Q66493932",
+                0.04222141578793526,
+                "tenure",
+                "land tenure"
+            ]
+        ],
+        "elq": [
+            [
+                "Q6611716",
+                -1.044053554534912,
+                "governor of georgia"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q227",
+                    "Azerbaijan"
+                ],
+                0.24677667072080423,
+                "the name"
+            ],
+            [
+                [
+                    "Q132050",
+                    "governor"
+                ],
+                0.7513710641519311,
+                "the current governor"
+            ],
+            [
+                [
+                    "Q230",
+                    "Georgia"
+                ],
+                0.2209842783425936,
+                "georgia"
+            ],
+            [
+                [
+                    "Q82955",
+                    "politician"
+                ],
+                0.30779031273246327,
+                "the politician"
+            ],
+            [
+                [
+                    "Q66493932",
+                    "land tenure"
+                ],
+                0.521214929187143,
+                "tenure"
+            ]
+        ]
+    },
+    {
+        "Id": 12954,
+        "Question": "who is the owner of google 2012 and was the executive producer of broken arrows",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q4934",
+                "WikidataLabel": "Larry Page",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Larry_Page"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q93346",
+                0.055908896028995514,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q6498684",
+                0.03684616833925247,
+                "owner",
+                "ownership"
+            ],
+            [
+                "Q183945",
+                0.21371042728424072,
+                "google",
+                "record producer"
+            ],
+            [
+                "Q21065443",
+                0.1424901783466339,
+                "executive producer",
+                "Broken Arrows"
+            ]
+        ],
+        "elq": [
+            [
+                "Q95",
+                -0.976286768913269,
+                "google 2012"
+            ],
+            [
+                "Q4973316",
+                -2.5022172927856445,
+                "broken arrows?"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q875920",
+                    "Toho"
+                ],
+                0.44193942350550575,
+                "the owner"
+            ],
+            [
+                [
+                    "Q95",
+                    "Google"
+                ],
+                0.3687849258719135,
+                "google"
+            ],
+            [
+                [
+                    "Q1053574",
+                    "executive producer"
+                ],
+                0.35365637394821453,
+                "the executive producer"
+            ],
+            [
+                [
+                    "Q7892574",
+                    "United States military nuclear incident terminology"
+                ],
+                0.0277519698852265,
+                "broken arrows"
+            ]
+        ]
+    },
+    {
+        "Id": 12955,
+        "Question": "in 1923, where did dietrich bonhoeffer go to school",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q153978",
+                "WikidataLabel": "University of T\u00fcbingen",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/University_of_T%C3%BCbingen"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q76326",
+                0.5,
+                "dietrich bonhoeffer",
+                "Dietrich Bonhoeffer"
+            ],
+            [
+                "Q11413",
+                0.033133238554000854,
+                "go",
+                "Go"
+            ],
+            [
+                "Q3914",
+                0.030962476506829262,
+                "school",
+                "school"
+            ]
+        ],
+        "elq": [
+            [
+                "Q76326",
+                -0.6908546686172485,
+                "dietrich bonhoeffer"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q76326",
+                    "Dietrich Bonhoeffer"
+                ],
+                0.3624272596339786,
+                "dietrich bonhoeffer"
+            ],
+            [
+                [
+                    "Q3914",
+                    "school"
+                ],
+                0.1565759496835361,
+                "school"
+            ]
+        ]
+    },
+    {
+        "Id": 12956,
+        "Question": "where was the composer of jealous guy standing while he was shot",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q60",
+                "WikidataLabel": "New York City",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/New_York_City"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q36834",
+                0.14463871717453003,
+                "composer",
+                "composer"
+            ],
+            [
+                "Q27722",
+                0.47698667645454407,
+                "jealous guy",
+                "Jealous Guy"
+            ],
+            [
+                "Q3122155",
+                0.5,
+                "guy standing",
+                "Guy Standing"
+            ],
+            [
+                "Q260899",
+                0.0530846081674099,
+                "shot",
+                "shot"
+            ]
+        ],
+        "elq": [
+            [
+                "Q3122155",
+                -1.3202998638153076,
+                "jealous guy standing"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q1928599",
+                    "The Composer"
+                ],
+                0.0832185111513419,
+                "the composer"
+            ],
+            [
+                [
+                    "Q27722",
+                    "Jealous Guy"
+                ],
+                0.2731241374363748,
+                "jealous guy"
+            ]
+        ]
+    },
+    {
+        "Id": 12957,
+        "Question": "who was elvis presley second wife",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q93346",
+                0.14400488138198853,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q303",
+                0.6670089960098267,
+                "elvis presley",
+                "Elvis Presley"
+            ],
+            [
+                "Q170585",
+                0.02646513469517231,
+                "second wife",
+                "polygamy"
+            ]
+        ],
+        "elq": [
+            [
+                "Q303",
+                -0.5201848745346069,
+                "elvis presley"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q303",
+                    "Elvis Presley"
+                ],
+                0.3991757097229693,
+                "elvis presley"
+            ],
+            [
+                [
+                    "Q170585",
+                    "polygamy"
+                ],
+                0.21253651043982388,
+                "second wife"
+            ]
+        ]
+    },
+    {
+        "Id": 12958,
+        "Question": "which city was twinned administrative body of skopje in 1967",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1731",
+                "WikidataLabel": "Dresden",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Dresden"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q1867820",
+                0.12462948262691498,
+                "city",
+                "City status in the United Kingdom"
+            ],
+            [
+                "Q184711",
+                0.5181617140769958,
+                "twinned",
+                "twin town"
+            ],
+            [
+                "Q327333",
+                0.045505180954933167,
+                "administrative body",
+                "government agency"
+            ],
+            [
+                "Q384",
+                0.5859333872795105,
+                "skopje",
+                "Skopje"
+            ]
+        ],
+        "elq": [
+            [
+                "Q384",
+                -0.45874980092048645,
+                "skopje"
+            ],
+            [
+                "Q184711",
+                -2.8806002140045166,
+                "twinned"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q515",
+                    "city"
+                ],
+                0.6439827414902262,
+                "city"
+            ],
+            [
+                [
+                    "Q327333",
+                    "government agency"
+                ],
+                0.27960696032062626,
+                "administrative body"
+            ],
+            [
+                [
+                    "Q384",
+                    "Skopje"
+                ],
+                0.38167668860109305,
+                "skopje"
+            ]
+        ]
+    },
+    {
+        "Id": 12959,
+        "Question": "what is the instance of fluorine that is followed by neon",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q11344",
+                "WikidataLabel": "chemical element",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Chemical_element"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q8513",
+                0.04253459721803665,
+                "instance",
+                "database"
+            ],
+            [
+                "Q650",
+                0.5250797867774963,
+                "fluorine",
+                "fluorine"
+            ],
+            [
+                "Q654",
+                0.31272318959236145,
+                "neon",
+                "neon"
+            ]
+        ],
+        "elq": [
+            [
+                "Q650",
+                -0.5649069547653198,
+                "fluorine"
+            ],
+            [
+                "Q654",
+                -1.8048980236053467,
+                "neon"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7436584",
+                    "Scott Johnson"
+                ],
+                0.01646971092332694,
+                "the instance"
+            ],
+            [
+                [
+                    "Q650",
+                    "fluorine"
+                ],
+                0.49039761559409983,
+                "fluorine"
+            ],
+            [
+                [
+                    "Q654",
+                    "neon"
+                ],
+                0.8112129071873843,
+                "neon"
+            ]
+        ]
+    },
+    {
+        "Id": 12960,
+        "Question": "when is john x believed to have died",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "0929-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q227976",
+                0.06804733723402023,
+                "john x",
+                "John X"
+            ]
+        ],
+        "elq": [
+            [
+                "Q227976",
+                -1.4797159433364868,
+                "john x"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q227976",
+                    "John X"
+                ],
+                0.11724952143661356,
+                "john x"
+            ]
+        ]
+    },
+    {
+        "Id": 12961,
+        "Question": "what is spouse of barbara walters that is start time is 1963-0-0",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6513735",
+                "WikidataLabel": "Lee Guber",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Lee_Guber"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q188830",
+                0.03645335137844086,
+                "spouse",
+                "wife"
+            ],
+            [
+                "Q231417",
+                0.5633469820022583,
+                "barbara walters",
+                "Barbara Walters"
+            ],
+            [
+                "Q931492",
+                0.0532282255589962,
+                "start",
+                "START I"
+            ],
+            [
+                "Q43297",
+                0.1473836898803711,
+                "time",
+                "Time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q231417",
+                -0.25171738862991333,
+                "barbara walters"
+            ],
+            [
+                "Q1196129",
+                -4.381365776062012,
+                "spouse"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q8445",
+                    "marriage"
+                ],
+                0.0786266272219087,
+                "spouse"
+            ],
+            [
+                [
+                    "Q231417",
+                    "Barbara Walters"
+                ],
+                0.25482465651269137,
+                "barbara walters"
+            ],
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.05033782972170441,
+                "start time"
+            ]
+        ]
+    },
+    {
+        "Id": 12962,
+        "Question": "what is awards of ilya mechnikov , that has champ is louis agassiz",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q28003",
+                "WikidataLabel": "Copley Medal",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Copley_Medal"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q339484",
+                0.14493685960769653,
+                "awards",
+                "Franklin Institute"
+            ],
+            [
+                "Q172254",
+                0.6732461452484131,
+                "ilya mechnikov",
+                "\u00c9lie Metchnikoff"
+            ],
+            [
+                "Q852061",
+                0.030135439708828926,
+                "champ",
+                "champion"
+            ],
+            [
+                "Q122972",
+                0.653262734413147,
+                "louis agassiz",
+                "Louis Agassiz"
+            ]
+        ],
+        "elq": [
+            [
+                "Q122972",
+                -0.6737558245658875,
+                "louis agassiz"
+            ],
+            [
+                "Q172254",
+                -1.6135692596435547,
+                "ilya mechnikov"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q618779",
+                    "award"
+                ],
+                0.08956874276399729,
+                "awards"
+            ],
+            [
+                [
+                    "Q172254",
+                    "\u00c9lie Metchnikoff"
+                ],
+                0.38240247478524453,
+                "ilya mechnikov"
+            ],
+            [
+                [
+                    "Q463733",
+                    "The Champ"
+                ],
+                0.34592926875931584,
+                "champ"
+            ],
+            [
+                [
+                    "Q122972",
+                    "Louis Agassiz"
+                ],
+                0.3658817756093717,
+                "louis agassiz"
+            ]
+        ]
+    },
+    {
+        "Id": 12963,
+        "Question": "what part of smooth area reached an end in the yea 1989 which was situated in the administrat regional element",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q16410",
+                "WikidataLabel": "People's Republic of Hungary",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q868473",
+                0.10310263931751251,
+                "smooth",
+                "smooth function"
+            ],
+            [
+                "Q11500",
+                0.14165370166301727,
+                "area",
+                "area"
+            ],
+            [
+                "Q158326",
+                0.0017393865855410695,
+                "end",
+                "The E.N.D"
+            ],
+            [
+                "Q605944",
+                0.041055720299482346,
+                "yea",
+                "Yea"
+            ],
+            [
+                "Q82794",
+                0.07011212408542633,
+                "regional",
+                "geographic region"
+            ],
+            [
+                "Q379825",
+                0.09290606528520584,
+                "element",
+                "element"
+            ]
+        ],
+        "elq": [
+            [
+                "Q4669272",
+                -3.683873414993286,
+                "yea"
+            ],
+            [
+                "Q7546444",
+                -3.886152982711792,
+                "smooth"
+            ],
+            [
+                "Q358792",
+                -4.222858905792236,
+                "ad"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7401",
+                    "part"
+                ],
+                0.09038942511169136,
+                "part"
+            ],
+            [
+                [
+                    "Q11500",
+                    "area"
+                ],
+                0.13586146970659166,
+                "area"
+            ],
+            [
+                [
+                    "Q2411408",
+                    "Jewish eschatology"
+                ],
+                0.04688396291282344,
+                "an end"
+            ],
+            [
+                [
+                    "Q605944",
+                    "Yea"
+                ],
+                0.05161955215278436,
+                "the yea"
+            ],
+            [
+                [
+                    "Q172891",
+                    "Elements"
+                ],
+                0.24222330795531344,
+                "element"
+            ]
+        ]
+    },
+    {
+        "Id": 12964,
+        "Question": "what award did sandra bullock receive at the 82nd academy awards",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q103618",
+                "WikidataLabel": "Academy Award for Best Actress",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Actress"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q40791",
+                0.6363508105278015,
+                "sandra bullock",
+                "Sandra Bullock"
+            ],
+            [
+                "Q2358",
+                0.031608883291482925,
+                "82nd",
+                "82nd Airborne Division"
+            ],
+            [
+                "Q19020",
+                0.2880094051361084,
+                "academy awards",
+                "Academy Awards"
+            ]
+        ],
+        "elq": [
+            [
+                "Q40791",
+                -0.5306369066238403,
+                "sandra bullock"
+            ],
+            [
+                "Q189836",
+                -0.616516649723053,
+                "82nd academy awards"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q618779",
+                    "award"
+                ],
+                0.4929500585223371,
+                "award"
+            ],
+            [
+                [
+                    "Q40791",
+                    "Sandra Bullock"
+                ],
+                0.22480181775827493,
+                "sandra bullock"
+            ],
+            [
+                [
+                    "Q189836",
+                    "82nd Academy Awards"
+                ],
+                0.6653388453262873,
+                "the 82nd"
+            ]
+        ]
+    },
+    {
+        "Id": 12965,
+        "Question": "who was the confederate commander during the battle of fort sumter",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q472131",
+                "WikidataLabel": "Robert Anderson",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/robert_anderson_(civil_war)"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.001720538828521967,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q1124986",
+                0.4180588722229004,
+                "confederate",
+                "Confederate States Navy"
+            ],
+            [
+                "Q13543682",
+                0.21125449240207672,
+                "commander",
+                "Commander"
+            ],
+            [
+                "Q543165",
+                0.7388311624526978,
+                "battle of fort sumter",
+                "Battle of Fort Sumter"
+            ]
+        ],
+        "elq": [
+            [
+                "Q543165",
+                -0.5231481790542603,
+                "battle of fort sumter"
+            ],
+            [
+                "Q81931",
+                -2.895193099975586,
+                "confederate"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q1125021",
+                    "Confederate States Army"
+                ],
+                0.96335817143406,
+                "the confederate commander"
+            ],
+            [
+                [
+                    "Q751186",
+                    "Battle of Fredericksburg"
+                ],
+                0.9782219657771356,
+                "the battle"
+            ],
+            [
+                [
+                    "Q737517",
+                    "Fort Sumter"
+                ],
+                0.9518501979287987,
+                "fort sumter"
+            ]
+        ]
+    },
+    {
+        "Id": 12966,
+        "Question": "where is the headquarters of the first company that bought rare",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q223718",
+                "WikidataLabel": "Redmond",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Redmond,_Washington"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7540126",
+                0.18018563091754913,
+                "headquarters",
+                "headquarters"
+            ],
+            [
+                "Q2791318",
+                0.08884457498788834,
+                "first",
+                "First Battle of Gaza"
+            ],
+            [
+                "Q783794",
+                0.12037817388772964,
+                "company",
+                "company"
+            ],
+            [
+                "Q642707",
+                0.034650929272174835,
+                "rare",
+                "Rare Ltd."
+            ]
+        ],
+        "elq": [
+            [
+                "Q642707",
+                -1.7305759191513062,
+                "rare"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q102538",
+                    "company"
+                ],
+                0.17793729956091447,
+                "the headquarters"
+            ]
+        ]
+    },
+    {
+        "Id": 12967,
+        "Question": "when did stanley matthews leave the blackpool f.c. team",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1961-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q216140",
+                0.6059279441833496,
+                "stanley matthews",
+                "Stanley Matthews"
+            ],
+            [
+                "Q679633",
+                0.1484004706144333,
+                "leave",
+                "list of professional wrestling match types"
+            ],
+            [
+                "Q19449",
+                0.5423828363418579,
+                "blackpool f.c",
+                "Blackpool F.C."
+            ],
+            [
+                "Q1066670",
+                0.14988841116428375,
+                "team",
+                "tag team"
+            ]
+        ],
+        "elq": [
+            [
+                "Q216140",
+                -0.3165687322616577,
+                "stanley matthews"
+            ],
+            [
+                "Q19449",
+                -1.1793147325515747,
+                "blackpool f. c"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q216140",
+                    "Stanley Matthews"
+                ],
+                0.9318788886058079,
+                "stanley matthews"
+            ],
+            [
+                [
+                    "Q19449",
+                    "Blackpool F.C."
+                ],
+                0.8042155706376073,
+                "the blackpool f.c"
+            ],
+            [
+                [
+                    "Q2412834",
+                    "reserve team"
+                ],
+                0.2850465162090585,
+                "team"
+            ]
+        ]
+    },
+    {
+        "Id": 12968,
+        "Question": "what years in the 1990's did the cowboys win the superbowl",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1993-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q34653",
+                0.07804369181394577,
+                "1990's",
+                "1990s"
+            ],
+            [
+                "Q204862",
+                0.22738218307495117,
+                "cowboys",
+                "Dallas Cowboys"
+            ],
+            [
+                "Q765031",
+                0.13139094412326813,
+                "win",
+                "Young Americans"
+            ]
+        ],
+        "elq": [
+            [
+                "Q7643073",
+                -3.281741142272949,
+                "superbowl"
+            ],
+            [
+                "Q2936194",
+                -4.180166244506836,
+                "cowboys"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q577",
+                    "year"
+                ],
+                0.043302650872750086,
+                "years"
+            ],
+            [
+                [
+                    "Q753340",
+                    "1990 in film"
+                ],
+                0.23362906293803823,
+                "the 1990's"
+            ],
+            [
+                [
+                    "Q1211921",
+                    "The Cowboys"
+                ],
+                0.11090201137985255,
+                "the cowboys"
+            ],
+            [
+                [
+                    "Q32096",
+                    "Super Bowl"
+                ],
+                0.7856786165376247,
+                "the superbowl"
+            ]
+        ]
+    },
+    {
+        "Id": 12969,
+        "Question": "who was the president when the 15 amendment was ratified",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q9640",
+                "WikidataLabel": "Lyndon B. Johnson",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/lyndon_b._johnson"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.13229894638061523,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q11696",
+                0.19248317182064056,
+                "president",
+                "President of the United States"
+            ],
+            [
+                "Q53463",
+                0.21029141545295715,
+                "amendment",
+                "constitutional amendment"
+            ],
+            [
+                "Q193170",
+                0.22803619503974915,
+                "ratified",
+                "ratification"
+            ]
+        ],
+        "elq": [
+            [
+                "Q11696",
+                -2.728037118911743,
+                "president"
+            ],
+            [
+                "Q191614",
+                -3.5382537841796875,
+                "15 amendment"
+            ],
+            [
+                "Q193170",
+                -4.479974269866943,
+                "ratified"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q11696",
+                    "President of the United States"
+                ],
+                0.7067402529897874,
+                "the president"
+            ],
+            [
+                [
+                    "Q191614",
+                    "Fifteenth Amendment to the United States Constitution"
+                ],
+                0.5454591564459099,
+                "the 15 amendment"
+            ]
+        ]
+    },
+    {
+        "Id": 12970,
+        "Question": "who won the grammy for best album 2013",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q11959548",
+                "WikidataLabel": "Attempted Mustache",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Attempted_Mustache"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q953918",
+                "WikidataLabel": "Mumford & Sons",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Mumford_%26_Sons"
+            }
+        ],
+        "Data source": "ComplexQuestions (COLING 2016)",
+        "Question creation date": "2016-12-13",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q93346",
+                0.15316949784755707,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q333192",
+                0.04101591557264328,
+                "won",
+                "Kang Ye-won"
+            ],
+            [
+                "Q41254",
+                0.25325676798820496,
+                "grammy",
+                "Grammy Awards"
+            ],
+            [
+                "Q723849",
+                0.18347904086112976,
+                "best album",
+                "greatest hits album"
+            ],
+            [
+                "Q841983",
+                0.18309883773326874,
+                "album",
+                "LP record"
+            ]
+        ],
+        "elq": [
+            [
+                "Q41254",
+                -1.3917523622512817,
+                "grammy"
+            ],
+            [
+                "Q904528",
+                -2.5490622520446777,
+                "best album"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q41254",
+                    "Grammy Awards"
+                ],
+                0.9116466527473677,
+                "the grammy"
+            ],
+            [
+                [
+                    "Q904528",
+                    "Grammy Award for Album of the Year"
+                ],
+                0.9860069116887967,
+                "best album"
+            ]
+        ]
+    },
+    {
+        "Id": 12971,
+        "Question": "when is saint elizabeth feast day",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3028",
+                "WikidataLabel": "November 17",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/November_17"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q235849",
+                0.3550877273082733,
+                "saint elizabeth",
+                "Elizabeth"
+            ],
+            [
+                "Q688564",
+                0.5330276489257812,
+                "feast day",
+                "calendar of saints"
+            ]
+        ],
+        "elq": [
+            [
+                "Q159862",
+                -2.456697463989258,
+                "saint elizabeth"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q235849",
+                    "Elizabeth"
+                ],
+                0.5513554938835764,
+                "saint elizabeth"
+            ]
+        ]
+    },
+    {
+        "Id": 12972,
+        "Question": "what is religion of stefan nemanja that is start time is 1143-0-0",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3333484",
+                "WikidataLabel": "Orthodox Christianity",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Orthodox_Christianity"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q9174",
+                0.11042900383472443,
+                "religion",
+                "religion"
+            ],
+            [
+                "Q298612",
+                0.5,
+                "stefan nemanja",
+                "Stefan Nemanja"
+            ],
+            [
+                "Q931492",
+                0.0016792872920632362,
+                "start",
+                "START I"
+            ],
+            [
+                "Q11471",
+                0.08735538274049759,
+                "time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q298612",
+                -0.7451075315475464,
+                "stefan nemanja"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q9174",
+                    "religion"
+                ],
+                0.13417447172598362,
+                "religion"
+            ],
+            [
+                [
+                    "Q298612",
+                    "Stefan Nemanja"
+                ],
+                0.07678100089711223,
+                "stefan nemanja"
+            ],
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.06030299240392254,
+                "start time"
+            ]
+        ]
+    },
+    {
+        "Id": 12973,
+        "Question": "can you describe the state of hagia sophia in 1931",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q32815",
+                "WikidataLabel": "mosque",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Mosque"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q843389",
+                0.048175569623708725,
+                "can",
+                "canning"
+            ],
+            [
+                "Q637907",
+                0.0017872207099571824,
+                "you",
+                "You"
+            ],
+            [
+                "Q3624078",
+                0.031782180070877075,
+                "state",
+                "sovereign state"
+            ],
+            [
+                "Q12506",
+                0.5744359493255615,
+                "hagia sophia",
+                "Hagia Sophia"
+            ]
+        ],
+        "elq": [
+            [
+                "Q12506",
+                -0.4321620464324951,
+                "hagia sophia"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7275",
+                    "state"
+                ],
+                0.17986840419522424,
+                "the state"
+            ],
+            [
+                [
+                    "Q12506",
+                    "Hagia Sophia"
+                ],
+                0.18027964972987512,
+                "hagia sophia"
+            ]
+        ]
+    },
+    {
+        "Id": 12974,
+        "Question": "what politician became the leader of france starting in 2012",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q157",
+                "WikidataLabel": "Fran\u00e7ois Hollande",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q329",
+                "WikidataLabel": "Nicolas Sarkozy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q330963",
+                0.10709446668624878,
+                "politician",
+                "politics of the United States"
+            ],
+            [
+                "Q928764",
+                0.025430828332901,
+                "leader",
+                "parliamentary group leader"
+            ],
+            [
+                "Q47774",
+                0.2270311713218689,
+                "france",
+                "France national association football team"
+            ],
+            [
+                "Q33999",
+                0.003528147004544735,
+                "starting",
+                "actor"
+            ],
+            [
+                "Q7331639",
+                0.035540562123060226,
+                "in 2012",
+                "Rick Perry presidential campaign, 2012"
+            ]
+        ],
+        "elq": [
+            [
+                "Q142",
+                -1.9098246097564697,
+                "france"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q82955",
+                    "politician"
+                ],
+                0.4098788335068163,
+                "politician"
+            ],
+            [
+                [
+                    "Q1394",
+                    "Vladimir Lenin"
+                ],
+                0.3211709196216252,
+                "the leader"
+            ],
+            [
+                [
+                    "Q142",
+                    "France"
+                ],
+                0.4239086884461649,
+                "france"
+            ]
+        ]
+    },
+    {
+        "Id": 12975,
+        "Question": "which nation icludes the city of sulaymaniyah and was a key participant in the 1991 gulf war",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q142",
+                "WikidataLabel": "France",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/France"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q145",
+                "WikidataLabel": "United Kingdom",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_Kingdom"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q30",
+                "WikidataLabel": "United States of America",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_States"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q408",
+                "WikidataLabel": "Australia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Australia"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q414",
+                "WikidataLabel": "Argentina",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Argentina"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q796",
+                "WikidataLabel": "Iraq",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Iraq"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q851",
+                "WikidataLabel": "Saudi Arabia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q1897630",
+                0.09373648464679718,
+                "nation",
+                "The Nation"
+            ],
+            [
+                "Q217787",
+                0.37949174642562866,
+                "the city",
+                "Carole King"
+            ],
+            [
+                "Q191204",
+                0.5866798758506775,
+                "sulaymaniyah",
+                "Sulaymaniyah"
+            ],
+            [
+                "Q534932",
+                0.0455034039914608,
+                "key",
+                "key"
+            ],
+            [
+                "Q37643",
+                0.2835914194583893,
+                "1991 gulf war",
+                "Gulf War"
+            ],
+            [
+                "Q37643",
+                0.2835914194583893,
+                "1991 gulf war",
+                "Gulf War"
+            ]
+        ],
+        "elq": [
+            [
+                "Q191204",
+                -0.5485857129096985,
+                "sulaymaniyah"
+            ],
+            [
+                "Q37643",
+                -0.6806240081787109,
+                "1991 gulf war"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q1065",
+                    "United Nations"
+                ],
+                0.6517406446759059,
+                "nation"
+            ],
+            [
+                [
+                    "Q23311",
+                    "City of London"
+                ],
+                0.06814605048305576,
+                "the city"
+            ],
+            [
+                [
+                    "Q191204",
+                    "Sulaymaniyah"
+                ],
+                0.5645175803846928,
+                "sulaymaniyah"
+            ],
+            [
+                [
+                    "Q210714",
+                    "2011 military intervention in Libya"
+                ],
+                0.7151130940723988,
+                "participant"
+            ],
+            [
+                [
+                    "Q37643",
+                    "Gulf War"
+                ],
+                0.581457353440644,
+                "gulf war"
+            ]
+        ]
+    },
+    {
+        "Id": 12976,
+        "Question": "what team with a middle linebacker did hank baskett play for in 2010",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q219714",
+                "WikidataLabel": "Philadelphia Eagles",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Philadelphia_Eagles"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q221150",
+                "WikidataLabel": "Minnesota Vikings",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Minnesota_Vikings"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q327245",
+                0.09686823934316635,
+                "team",
+                "team"
+            ],
+            [
+                "Q528145",
+                0.4185275435447693,
+                "middle linebacker",
+                "linebacker"
+            ],
+            [
+                "Q528145",
+                0.4185275435447693,
+                "middle linebacker",
+                "linebacker"
+            ],
+            [
+                "Q1433425",
+                0.6447203755378723,
+                "hank baskett",
+                "Hank Baskett"
+            ],
+            [
+                "Q7203108",
+                0.23018132150173187,
+                "play",
+                "play from scrimmage"
+            ],
+            [
+                "Q3030435",
+                0.0008706982480362058,
+                "in 2010",
+                "2010 Illinois gubernatorial election"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1433425",
+                -0.4252471327781677,
+                "hank baskett"
+            ],
+            [
+                "Q528145",
+                -3.1785356998443604,
+                "linebacker"
+            ],
+            [
+                "Q622675",
+                -4.450587272644043,
+                "2010"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q1215884",
+                    "National Football League"
+                ],
+                0.7878514026346797,
+                "team"
+            ],
+            [
+                [
+                    "Q528145",
+                    "linebacker"
+                ],
+                0.8451177877465378,
+                "linebacker"
+            ],
+            [
+                [
+                    "Q1433425",
+                    "Hank Baskett"
+                ],
+                0.3746852908579996,
+                "hank baskett"
+            ]
+        ]
+    },
+    {
+        "Id": 12977,
+        "Question": "what is position held of henry campbell-bannerman and elected in",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2074515",
+                "WikidataLabel": "1880 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1880_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2074525",
+                "WikidataLabel": "1868 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1868_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3076606",
+                "WikidataLabel": "1906 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1906_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3397257",
+                "WikidataLabel": "1885 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1885_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7888016",
+                "WikidataLabel": "1886 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1886_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7888018",
+                "WikidataLabel": "1892 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1892_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7888019",
+                "WikidataLabel": "1895 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1895_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q918351",
+                "WikidataLabel": "1874 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1874_United_Kingdom_general_election"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q918358",
+                "WikidataLabel": "1900 United Kingdom general election",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/1900_United_Kingdom_general_election"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q4611891",
+                0.0006434796378016472,
+                "position",
+                "association football position"
+            ],
+            [
+                "Q106618",
+                0.5454534292221069,
+                "henry campbell-bannerman",
+                "Henry Campbell-Bannerman"
+            ],
+            [
+                "Q7574257",
+                0.14895838499069214,
+                "elected",
+                "2009 Speaker of the British House of Commons election"
+            ]
+        ],
+        "elq": [
+            [
+                "Q106618",
+                -0.2575581967830658,
+                "henry campbell - bannerman"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q6583019",
+                    "rugby union position"
+                ],
+                0.1886213912051353,
+                "position"
+            ],
+            [
+                [
+                    "Q106618",
+                    "Henry Campbell-Bannerman"
+                ],
+                0.3946139001774945,
+                "henry campbell-bannerman"
+            ]
+        ]
+    },
+    {
+        "Id": 12978,
+        "Question": "what is the start time for peyton manning has member of sports team as tennessee volunteers football",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1994-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q25392108",
+                0.19007769227027893,
+                "start",
+                "Starting lineup"
+            ],
+            [
+                "Q43297",
+                0.0512738935649395,
+                "time",
+                "Time"
+            ],
+            [
+                "Q7539",
+                0.731045663356781,
+                "peyton manning",
+                "Peyton Manning"
+            ],
+            [
+                "Q1416102",
+                0.0432807132601738,
+                "member",
+                "Network affiliate"
+            ],
+            [
+                "Q1369650",
+                0.15084686875343323,
+                "sports team",
+                "professional sport"
+            ],
+            [
+                "Q12070759",
+                0.518318772315979,
+                "tennessee volunteers",
+                "Tennessee Volunteers football"
+            ],
+            [
+                "Q12070759",
+                0.518318772315979,
+                "tennessee volunteers",
+                "Tennessee Volunteers football"
+            ]
+        ],
+        "elq": [
+            [
+                "Q7539",
+                -0.325225293636322,
+                "peyton manning"
+            ],
+            [
+                "Q12070759",
+                -1.184247612953186,
+                "tennessee volunteers football"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.02505966391896075,
+                "the start time"
+            ],
+            [
+                [
+                    "Q7539",
+                    "Peyton Manning"
+                ],
+                0.41163296344816525,
+                "peyton manning"
+            ],
+            [
+                [
+                    "Q486839",
+                    "member of parliament"
+                ],
+                0.06867521437099602,
+                "member"
+            ],
+            [
+                [
+                    "Q1369650",
+                    "professional sport"
+                ],
+                0.4507208173275831,
+                "sports team"
+            ],
+            [
+                [
+                    "Q12070759",
+                    "Tennessee Volunteers football"
+                ],
+                0.7746948820545014,
+                "tennessee"
+            ]
+        ]
+    },
+    {
+        "Id": 12979,
+        "Question": "when did the republic of tartarstan end when rostam minnexanov was head of government",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2010-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7270",
+                0.14750297367572784,
+                "republic",
+                "republic"
+            ],
+            [
+                "Q5481",
+                0.5478206276893616,
+                "tartarstan",
+                "Tatarstan"
+            ],
+            [
+                "Q3239172",
+                0.0017393865855410695,
+                "end",
+                "intrinsic value"
+            ],
+            [
+                "Q60062",
+                0.09770114719867706,
+                "rostam",
+                "Rostam"
+            ],
+            [
+                "Q2285706",
+                0.4120029807090759,
+                "head of government",
+                "head of government"
+            ]
+        ],
+        "elq": [
+            [
+                "Q83971",
+                -2.162992000579834,
+                "tartarstan"
+            ],
+            [
+                "Q16228268",
+                -2.4158568382263184,
+                "rostam minnexanov"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q123397",
+                    "The Republic"
+                ],
+                0.23101332421362558,
+                "the republic"
+            ],
+            [
+                [
+                    "Q983503",
+                    "R\u00f6st\u00e4m Mi\u00f1nexanof"
+                ],
+                0.45155199481328123,
+                "rostam minnexanov"
+            ],
+            [
+                [
+                    "Q2285706",
+                    "head of government"
+                ],
+                0.5677445756705066,
+                "head"
+            ],
+            [
+                [
+                    "Q7188",
+                    "government"
+                ],
+                0.41556968428069185,
+                "government"
+            ]
+        ]
+    },
+    {
+        "Id": 12980,
+        "Question": "what year did robert muller become the us deputy attorney general",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2001-01-20T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q16967243",
+                0.2750000059604645,
+                "what year",
+                "What a Year"
+            ],
+            [
+                "Q67291",
+                0.28333333134651184,
+                "robert muller",
+                "Robert M\u00fcller"
+            ],
+            [
+                "Q1364289",
+                0.11764705926179886,
+                "us deputy attorney general",
+                "United States Deputy Attorney General"
+            ]
+        ],
+        "elq": [
+            [
+                "Q715156",
+                -0.7383736968040466,
+                "robert muller"
+            ],
+            [
+                "Q1364289",
+                -1.9333946704864502,
+                "deputy attorney general"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q577",
+                    "year"
+                ],
+                0.015605004611203661,
+                "year"
+            ],
+            [
+                [
+                    "Q3938383",
+                    "Robert Muller"
+                ],
+                0.13035959760372162,
+                "robert muller"
+            ],
+            [
+                [
+                    "Q1364289",
+                    "United States Deputy Attorney General"
+                ],
+                0.3889642296354046,
+                "deputy attorney general"
+            ]
+        ]
+    },
+    {
+        "Id": 12981,
+        "Question": "what was the population of taraz in 1989",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "303961"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q1075999",
+                0.22553540766239166,
+                "population",
+                "demographics of Afghanistan"
+            ],
+            [
+                "Q486545",
+                0.6709672212600708,
+                "taraz",
+                "Taraz"
+            ]
+        ],
+        "elq": [
+            [
+                "Q486545",
+                -1.3412960767745972,
+                "taraz"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q2625603",
+                    "population"
+                ],
+                0.3256758895108928,
+                "the population"
+            ],
+            [
+                [
+                    "Q486545",
+                    "Taraz"
+                ],
+                0.37945136779028726,
+                "taraz"
+            ]
+        ]
+    },
+    {
+        "Id": 12982,
+        "Question": "what kind of government did the united states have after the revolution",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q188759",
+                "WikidataLabel": "representative democracy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Representative_democracy"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q233008",
+                "WikidataLabel": "two-party system",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Two-party_system"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q49892",
+                "WikidataLabel": "presidential system",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Presidential_system"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q512187",
+                "WikidataLabel": "federal republic",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Federal_republic"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7270",
+                "WikidataLabel": "republic",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Republic"
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q488085",
+                0.05301344022154808,
+                "kind",
+                "kindness"
+            ],
+            [
+                "Q7188",
+                0.13572604954242706,
+                "government",
+                "government"
+            ],
+            [
+                "Q30",
+                0.2336721420288086,
+                "united states",
+                "United States of America"
+            ],
+            [
+                "Q192769",
+                0.11240415275096893,
+                "revolution",
+                "American Revolution"
+            ]
+        ],
+        "elq": [
+            [
+                "Q30",
+                -2.3680598735809326,
+                "united states"
+            ],
+            [
+                "Q192769",
+                -3.1588244438171387,
+                "revolution"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q6011588",
+                    "in kind"
+                ],
+                0.08807315863086294,
+                "kind"
+            ],
+            [
+                [
+                    "Q7188",
+                    "government"
+                ],
+                0.4992438488578834,
+                "government"
+            ],
+            [
+                [
+                    "Q30",
+                    "United States of America"
+                ],
+                0.1600479052172129,
+                "the united states"
+            ],
+            [
+                [
+                    "Q126065",
+                    "Iranian Revolution"
+                ],
+                0.42653893717441904,
+                "the revolution"
+            ]
+        ]
+    },
+    {
+        "Id": 12983,
+        "Question": "what nba team won the back to back championship in 1989 and 1990",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q169661",
+                "WikidataLabel": "Detroit Pistons",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/detroit_pistons"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q32112",
+                0.1587904393672943,
+                "nba",
+                "boxing"
+            ],
+            [
+                "Q216048",
+                0.15573528409004211,
+                "team",
+                "team sport"
+            ],
+            [
+                "Q754575",
+                0.07217590510845184,
+                "won",
+                "football at the 1996 Summer Olympics"
+            ],
+            [
+                "Q798293",
+                0.034027405083179474,
+                "back to back",
+                "back-to-back houses"
+            ],
+            [
+                "Q1079023",
+                0.13280028104782104,
+                "championship",
+                "championship"
+            ]
+        ],
+        "elq": [
+            [
+                "Q155223",
+                -2.1995954513549805,
+                "nba"
+            ],
+            [
+                "Q4585299",
+                -3.2839884757995605,
+                "1989"
+            ],
+            [
+                "Q4586134",
+                -3.330321788787842,
+                "1990"
+            ],
+            [
+                "Q842375",
+                -4.358534336090088,
+                "championship"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q155223",
+                    "National Basketball Association"
+                ],
+                0.4174267224898344,
+                "nba"
+            ],
+            [
+                [
+                    "Q3519854",
+                    "The Backs"
+                ],
+                0.04172736949280767,
+                "the back"
+            ],
+            [
+                [
+                    "Q842375",
+                    "NBA Finals"
+                ],
+                0.9299558980483894,
+                "championship"
+            ]
+        ]
+    },
+    {
+        "Id": 12984,
+        "Question": "who was the 16h us president",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q91",
+                "WikidataLabel": "Abraham Lincoln",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/abraham_lincoln"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.1077394112944603,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q11696",
+                0.2561250627040863,
+                "us president",
+                "President of the United States"
+            ]
+        ],
+        "elq": [
+            [
+                "Q11696",
+                -2.8138349056243896,
+                "president"
+            ],
+            [
+                "Q30",
+                -4.286348342895508,
+                "us"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q11696",
+                    "President of the United States"
+                ],
+                0.3066407000851233,
+                "president"
+            ]
+        ]
+    },
+    {
+        "Id": 12985,
+        "Question": "who won the first ever gold medal in the olypimcs",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q294321",
+                "WikidataLabel": "James Brendan Connolly",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/james_brendan_connolly"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.0339004211127758,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q754575",
+                0.07481220364570618,
+                "won",
+                "football at the 1996 Summer Olympics"
+            ],
+            [
+                "Q4971470",
+                0.07223834842443466,
+                "first",
+                "British undergraduate degree classification"
+            ],
+            [
+                "Q406039",
+                0.15402641892433167,
+                "gold medal",
+                "gold medal"
+            ]
+        ],
+        "elq": [
+            [
+                "Q17239601",
+                -3.4815890789031982,
+                "olypimcs"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q406039",
+                    "gold medal"
+                ],
+                0.5366043273546954,
+                "gold medal"
+            ]
+        ]
+    },
+    {
+        "Id": 12986,
+        "Question": "what is award received of walter cronkite that is point in time is 1980-0-0",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q838121",
+                "WikidataLabel": "Peabody Award",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Peabody_Award"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q1415017",
+                0.06196428835391998,
+                "award",
+                "Writers Guild of America Award"
+            ],
+            [
+                "Q31073",
+                0.646512508392334,
+                "walter cronkite",
+                "Walter Cronkite"
+            ],
+            [
+                "Q11471",
+                0.2109302133321762,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.2109302133321762,
+                "point in time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q31073",
+                -0.2588956952095032,
+                "walter cronkite"
+            ],
+            [
+                "Q628082",
+                -3.6009697914123535,
+                "point in time"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q618779",
+                    "award"
+                ],
+                0.33278830178616015,
+                "award"
+            ],
+            [
+                [
+                    "Q31073",
+                    "Walter Cronkite"
+                ],
+                0.28947528760142854,
+                "walter cronkite"
+            ],
+            [
+                [
+                    "Q2353718",
+                    "point"
+                ],
+                0.12618329373775797,
+                "point"
+            ],
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.21212903232794963,
+                "time"
+            ]
+        ]
+    },
+    {
+        "Id": 12987,
+        "Question": "what is the point in time for della reese has award received as naacp image award for outstanding actress in a drama series",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1996-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1997-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1999-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2000-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2001-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2002-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q11471",
+                0.15982277691364288,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.15982277691364288,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q238361",
+                0.6232327818870544,
+                "della reese",
+                "Della Reese"
+            ],
+            [
+                "Q1153257",
+                0.595120906829834,
+                "naacp image award",
+                "NAACP Image Awards"
+            ],
+            [
+                "Q1659587",
+                0.21971823275089264,
+                "outstanding actress in a drama series",
+                "NAACP Image Award for Outstanding Actress in a Drama Series"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1659587",
+                -0.5527377724647522,
+                "naacp image award for outstanding actress in a drama series"
+            ],
+            [
+                "Q238361",
+                -0.7598494291305542,
+                "della reese"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7757588",
+                    "The Point!"
+                ],
+                0.19325506854875338,
+                "the point"
+            ],
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.16057759902047153,
+                "time"
+            ],
+            [
+                [
+                    "Q238361",
+                    "Della Reese"
+                ],
+                0.40537267398753124,
+                "della reese"
+            ],
+            [
+                [
+                    "Q795848",
+                    "BET Awards"
+                ],
+                0.779062377619318,
+                "award"
+            ],
+            [
+                [
+                    "Q502044",
+                    "NAACP"
+                ],
+                0.5675733216768569,
+                "naacp"
+            ],
+            [
+                [
+                    "Q1659572",
+                    "NAACP Image Award for Outstanding Actress in a Motion Picture"
+                ],
+                0.5431614639978096,
+                "outstanding actress"
+            ],
+            [
+                [
+                    "Q130232",
+                    "drama film"
+                ],
+                0.25654374980981626,
+                "a drama series"
+            ]
+        ]
+    },
+    {
+        "Id": 12988,
+        "Question": "when was cathy landers certified as a fifth degree black belt in seishindo kenpo",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2008-08-16T00:00:00Z"
+            }
+        ],
+        "Data source": "Free917 (ACL 2013)",
+        "Question creation date": "2013-08-04",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q5053446",
+                0.5,
+                "cathy landers",
+                "Cathy Landers"
+            ],
+            [
+                "Q241365",
+                0.014251258224248886,
+                "certified",
+                "music recording sales certification"
+            ],
+            [
+                "Q33104507",
+                0.016393441706895828,
+                "fifth degree",
+                "quintic function"
+            ],
+            [
+                "Q684402",
+                0.2697073221206665,
+                "black belt",
+                "black belt"
+            ]
+        ],
+        "elq": [
+            [
+                "Q501672",
+                -1.2363197803497314,
+                "seishindo kenpo"
+            ],
+            [
+                "Q684402",
+                -1.7786736488342285,
+                "black belt"
+            ],
+            [
+                "Q5053446",
+                -2.2584619522094727,
+                "cathy landers"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q5053446",
+                    "Cathy Landers"
+                ],
+                0.07981538633685142,
+                "cathy landers"
+            ],
+            [
+                [
+                    "Q373498",
+                    "dan"
+                ],
+                0.9040897857318814,
+                "a fifth degree"
+            ],
+            [
+                [
+                    "Q684402",
+                    "black belt"
+                ],
+                0.9068786903774222,
+                "black belt"
+            ],
+            [
+                [
+                    "Q525270",
+                    "American Kenpo"
+                ],
+                0.7474910950242255,
+                "kenpo"
+            ]
+        ]
+    },
+    {
+        "Id": 12989,
+        "Question": "what is location and point in time of thomas cranmer that has the significant event consecration",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7595468",
+                "WikidataLabel": "St Stephen's Chapel",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/St_Stephen%27s_Chapel"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1533-04-09T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q217048",
+                0.08802352100610733,
+                "location",
+                "Baptism of Jesus"
+            ],
+            [
+                "Q11471",
+                0.1853465437889099,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.1853465437889099,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q199894",
+                0.5995435118675232,
+                "thomas cranmer",
+                "Thomas Cranmer"
+            ],
+            [
+                "Q100235738",
+                0.15336982905864716,
+                "event",
+                "event"
+            ],
+            [
+                "Q125375",
+                0.18165650963783264,
+                "consecration",
+                "consecration"
+            ]
+        ],
+        "elq": [
+            [
+                "Q199894",
+                -0.17501990497112274,
+                "thomas cranmer"
+            ],
+            [
+                "Q125375",
+                -2.3253393173217773,
+                "consecration"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q2221906",
+                    "geographic location"
+                ],
+                0.10017185812585312,
+                "location"
+            ],
+            [
+                [
+                    "Q44946",
+                    "point"
+                ],
+                0.1554543833787935,
+                "point"
+            ],
+            [
+                [
+                    "Q11471",
+                    "time"
+                ],
+                0.2425573484200775,
+                "time"
+            ],
+            [
+                [
+                    "Q199894",
+                    "Thomas Cranmer"
+                ],
+                0.17852183876423605,
+                "thomas cranmer"
+            ],
+            [
+                [
+                    "Q535568",
+                    "National Cherry Blossom Festival"
+                ],
+                0.07547246283354234,
+                "the significant event"
+            ]
+        ]
+    },
+    {
+        "Id": 12990,
+        "Question": "who was howard hughes married to in 1957",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q243005",
+                "WikidataLabel": "Jean Peters",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jean_Peters"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q93346",
+                0.11155525594949722,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q189081",
+                0.4864896237850189,
+                "howard hughes",
+                "Howard Hughes"
+            ],
+            [
+                "Q20455914",
+                0.10724905878305435,
+                "married",
+                "maiden and married names"
+            ]
+        ],
+        "elq": [
+            [
+                "Q189081",
+                -0.7421430349349976,
+                "howard hughes"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q189081",
+                    "Howard Hughes"
+                ],
+                0.2016254841489501,
+                "howard hughes"
+            ]
+        ]
+    },
+    {
+        "Id": 12991,
+        "Question": "who won the 2010 f1 championship",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q69934",
+                "WikidataLabel": "2010 Formula One season",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/2010_formula_one_season"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7817",
+                0.039715252816677094,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q202040",
+                0.09893279522657394,
+                "won",
+                "won"
+            ],
+            [
+                "Q69934",
+                0.11273510754108429,
+                "2010 f1",
+                "2010 Formula One World Championship"
+            ],
+            [
+                "Q1079023",
+                0.016523955389857292,
+                "championship",
+                "championship"
+            ]
+        ],
+        "elq": [],
+        "wat": [
+            [
+                [
+                    "Q1079023",
+                    "championship"
+                ],
+                0.2397127212002336,
+                "championship"
+            ]
+        ]
+    },
+    {
+        "Id": 12992,
+        "Question": "what is award received of christopher lambert that is point in time is 1986-0-0",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q900494",
+                "WikidataLabel": "C\u00e9sar Award for Best Actor",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/C%C3%A9sar_Award_for_Best_Actor"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q1415017",
+                0.0010887548560276628,
+                "award",
+                "Writers Guild of America Award"
+            ],
+            [
+                "Q105158",
+                0.5,
+                "christopher lambert",
+                "Christopher Lambert"
+            ],
+            [
+                "Q11471",
+                0.16811175644397736,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.16811175644397736,
+                "point in time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q105158",
+                -0.5054632425308228,
+                "christopher lambert"
+            ],
+            [
+                "Q628082",
+                -2.768409252166748,
+                "point in time"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q618779",
+                    "award"
+                ],
+                0.2585982413750329,
+                "award"
+            ],
+            [
+                [
+                    "Q105158",
+                    "Christopher Lambert"
+                ],
+                0.09412291359498322,
+                "christopher lambert"
+            ],
+            [
+                [
+                    "Q58390",
+                    "fielding"
+                ],
+                0.18392884880400628,
+                "point"
+            ],
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.25565404595252594,
+                "time"
+            ]
+        ]
+    },
+    {
+        "Id": 12993,
+        "Question": "what was the first wife of the actor who played in the movie pinball wizard",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q966906",
+                "WikidataLabel": "Renate Blauel",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Renate_Blauel"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q12616",
+                0.062137704342603683,
+                "first",
+                "First Amendment to the United States Constitution"
+            ],
+            [
+                "Q188830",
+                0.06495721638202667,
+                "wife",
+                "wife"
+            ],
+            [
+                "Q33999",
+                0.11723712831735611,
+                "actor",
+                "actor"
+            ],
+            [
+                "Q93346",
+                0.1052948534488678,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q11424",
+                0.11736030876636505,
+                "movie",
+                "film"
+            ],
+            [
+                "Q2321342",
+                0.5767168402671814,
+                "pinball wizard",
+                "Pinball Wizard"
+            ]
+        ],
+        "elq": [
+            [
+                "Q2321342",
+                -0.6339940428733826,
+                "pinball wizard"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q234074",
+                    "Pattie Boyd"
+                ],
+                0.40695042984791785,
+                "the first wife"
+            ],
+            [
+                [
+                    "Q40531",
+                    "John Wayne"
+                ],
+                0.6276373135107921,
+                "the actor"
+            ],
+            [
+                [
+                    "Q2321342",
+                    "Pinball Wizard"
+                ],
+                0.2772106754822369,
+                "pinball wizard"
+            ]
+        ]
+    },
+    {
+        "Id": 12994,
+        "Question": "tell me the position when joaquim chissano was replaced as the chairperson of the african union.",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q202006",
+                "WikidataLabel": "Olusegun Obasanjo",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Olusegun_Obasanjo"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "test",
+        "tagme": [
+            [
+                "Q7697442",
+                0.01615096814930439,
+                "tell me",
+                "Tell Me"
+            ],
+            [
+                "Q22664",
+                0.0018932698294520378,
+                "position",
+                "geographic coordinate system"
+            ],
+            [
+                "Q208355",
+                0.6902308464050293,
+                "joaquim chissano",
+                "Joaquim Chissano"
+            ],
+            [
+                "Q946339",
+                0.4435996413230896,
+                "chairperson of the african union",
+                "Chairperson of the African Union"
+            ],
+            [
+                "Q7159",
+                0.6766160726547241,
+                "african union",
+                "African Union"
+            ]
+        ],
+        "elq": [
+            [
+                "Q208355",
+                -0.20541834831237793,
+                "joaquim chissano"
+            ],
+            [
+                "Q7159",
+                -1.0244841575622559,
+                "african union"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q208355",
+                    "Joaquim Chissano"
+                ],
+                0.13914314177847315,
+                "the position"
+            ],
+            [
+                [
+                    "Q140686",
+                    "chairperson"
+                ],
+                0.6749716203659489,
+                "joaquim chissano"
+            ],
+            [
+                [
+                    "Q7159",
+                    "African Union"
+                ],
+                0.5218684931985169,
+                "the chairperson"
+            ]
+        ]
+    }
+]

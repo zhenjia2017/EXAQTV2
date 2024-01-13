@@ -1,0 +1,4398 @@
+[
+    {
+        "Id": 9709,
+        "Question": "what was disneys first color movie",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q134430",
+                "WikidataLabel": "Snow White and the Seven Dwarfs",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/snow_white_and_the_seven_dwarfs_(1937_film)"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q12616",
+                0.04343418776988983,
+                "first",
+                "First Amendment to the United States Constitution"
+            ],
+            [
+                "Q941530",
+                0.11073636263608932,
+                "color",
+                "color motion picture film"
+            ],
+            [
+                "Q11424",
+                0.1513679325580597,
+                "movie",
+                "film"
+            ]
+        ],
+        "elq": [
+            [
+                "Q7414",
+                -3.284092903137207,
+                "disney"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7414",
+                    "The Walt Disney Company"
+                ],
+                0.6209779008585765,
+                "disneys"
+            ],
+            [
+                [
+                    "Q941530",
+                    "color motion picture film"
+                ],
+                0.4631381739806946,
+                "color movie"
+            ]
+        ]
+    },
+    {
+        "Id": 9710,
+        "Question": "at what rate was inflation in venezuela in the year 1996",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "103.2"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [],
+        "elq": [
+            [
+                "Q717",
+                -1.0786234140396118,
+                "venezuela"
+            ],
+            [
+                "Q35865",
+                -2.3446717262268066,
+                "inflation"
+            ],
+            [
+                "Q8531",
+                -3.945128917694092,
+                "1996"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q66100",
+                    "exchange rate"
+                ],
+                0.8761826638649172,
+                "rate"
+            ],
+            [
+                [
+                    "Q35865",
+                    "inflation"
+                ],
+                0.7924838610733218,
+                "inflation"
+            ],
+            [
+                [
+                    "Q717",
+                    "Venezuela"
+                ],
+                0.3180292424141438,
+                "venezuela"
+            ],
+            [
+                [
+                    "Q383272",
+                    "2007 Copa Am\u00e9rica"
+                ],
+                0.6102348666475974,
+                "the year"
+            ]
+        ]
+    },
+    {
+        "Id": 9711,
+        "Question": "which leader of the first communist party of china once quoted \"all reactionaries are paper tigers.\"",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q369681",
+                "WikidataLabel": "Chen Duxiu",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Chen_Duxiu"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q484275",
+                0.08987429738044739,
+                "leader",
+                "leadership"
+            ],
+            [
+                "Q191282",
+                0.07440892606973648,
+                "first",
+                "First Opium War"
+            ],
+            [
+                "Q17427",
+                0.5678555965423584,
+                "communist party of china",
+                "Chinese Communist Party"
+            ],
+            [
+                "Q800594",
+                0.0009033234091475606,
+                "once",
+                "Once train station"
+            ],
+            [
+                "Q192957",
+                0.17920011281967163,
+                "reactionaries",
+                "reaction"
+            ],
+            [
+                "Q2745605",
+                0.11627907305955887,
+                "paper tigers",
+                "Paper Tigers"
+            ]
+        ],
+        "elq": [
+            [
+                "Q17427",
+                -1.453434705734253,
+                "first communist party of china"
+            ],
+            [
+                "Q1146358",
+                -3.347728729248047,
+                "paper tigers"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q352",
+                    "Adolf Hitler"
+                ],
+                0.8141002246076134,
+                "leader"
+            ],
+            [
+                [
+                    "Q6186",
+                    "communism"
+                ],
+                0.9194517586984571,
+                "communist"
+            ],
+            [
+                [
+                    "Q148",
+                    "People's Republic of China"
+                ],
+                0.36452071854887313,
+                "china"
+            ],
+            [
+                [
+                    "Q192957",
+                    "reaction"
+                ],
+                0.6297678573407482,
+                "reactionaries"
+            ],
+            [
+                [
+                    "Q650855",
+                    "Detroit Tigers"
+                ],
+                0.17994922165486144,
+                "tigers"
+            ]
+        ]
+    },
+    {
+        "Id": 9712,
+        "Question": "who child of has brother of arthur baldwin, 3rd earl baldwin of bewdley",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q166635",
+                "WikidataLabel": "Stanley Baldwin",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Stanley_Baldwin"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.09504875540733337,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q7569",
+                0.17820146679878235,
+                "child",
+                "child"
+            ],
+            [
+                "Q10861465",
+                0.14850328862667084,
+                "brother",
+                "brother"
+            ],
+            [
+                "Q4797909",
+                0.5,
+                "arthur baldwin, 3rd earl baldwin of bewdley",
+                "Arthur Baldwin, 3rd Earl Baldwin of Bewdley"
+            ]
+        ],
+        "elq": [
+            [
+                "Q4797909",
+                -0.24368111789226532,
+                "arthur baldwin, 3rd earl baldwin of bewdley"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7569",
+                    "child"
+                ],
+                0.11357578166057672,
+                "child"
+            ],
+            [
+                [
+                    "Q10861465",
+                    "brother"
+                ],
+                0.5209168424817328,
+                "brother"
+            ],
+            [
+                [
+                    "Q4797909",
+                    "Arthur Baldwin, 3rd Earl Baldwin of Bewdley"
+                ],
+                0.12352539445367287,
+                "arthur baldwin"
+            ],
+            [
+                [
+                    "Q4090718",
+                    "Oliver Baldwin, 2nd Earl Baldwin of Bewdley"
+                ],
+                0.44802894126116444,
+                "earl baldwin"
+            ],
+            [
+                [
+                    "Q4899742",
+                    "Bewdley"
+                ],
+                0.4361444969591295,
+                "bewdley"
+            ]
+        ]
+    },
+    {
+        "Id": 9713,
+        "Question": "what is position held of john c. calhoun that is series ordinal is 16",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q14213",
+                "WikidataLabel": "United States Secretary of State",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q11210",
+                0.17569082975387573,
+                "position",
+                "coordinate system"
+            ],
+            [
+                "Q207191",
+                0.5,
+                "john c. calhoun",
+                "John C. Calhoun"
+            ],
+            [
+                "Q170198",
+                0.18316829204559326,
+                "series",
+                "series"
+            ],
+            [
+                "Q951437",
+                0.23153215646743774,
+                "ordinal",
+                "level of measurement"
+            ]
+        ],
+        "elq": [
+            [
+                "Q207191",
+                -0.36601030826568604,
+                "john c. calhoun"
+            ],
+            [
+                "Q191780",
+                -4.460015296936035,
+                "series ordinal"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q694589",
+                    "American football position"
+                ],
+                0.30642207788436066,
+                "position"
+            ],
+            [
+                [
+                    "Q207191",
+                    "John C. Calhoun"
+                ],
+                0.2180278545597662,
+                "john c. calhoun"
+            ],
+            [
+                [
+                    "Q784710",
+                    "Book of Common Prayer"
+                ],
+                0.17726205975997242,
+                "ordinal"
+            ]
+        ]
+    },
+    {
+        "Id": 9714,
+        "Question": "whose start position was after 35 in 2009 daytona 500",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q171410",
+                "WikidataLabel": "Scott Speed",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Scott_Speed"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q204845",
+                "WikidataLabel": "Terry Labonte",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Terry_Labonte"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q377197",
+                "WikidataLabel": "John Andretti",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/John_Andretti"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q468436",
+                "WikidataLabel": "Matt Kenseth",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Matt_Kenseth"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q525980",
+                "WikidataLabel": "Ryan Newman",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Ryan_Newman_(racing_driver)"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q862090",
+                "WikidataLabel": "Bill Elliott",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Bill_Elliott"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q925414",
+                "WikidataLabel": "Travis Kvapil",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Travis_Kvapil"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q977193",
+                "WikidataLabel": "Regan Smith",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Regan_Smith"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q772148",
+                0.04598136246204376,
+                "start",
+                "starting pitcher"
+            ],
+            [
+                "Q4611891",
+                0.0006434796378016472,
+                "position",
+                "association football position"
+            ],
+            [
+                "Q4613639",
+                0.5208022594451904,
+                "2009 daytona 500",
+                "2009 Daytona 500"
+            ],
+            [
+                "Q841738",
+                0.6673194766044617,
+                "daytona 500",
+                "Daytona 500"
+            ]
+        ],
+        "elq": [
+            [
+                "Q4613639",
+                -0.6120436787605286,
+                "2009 daytona 500"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q25392108",
+                    "Starting lineup"
+                ],
+                0.3194072068776172,
+                "start position"
+            ],
+            [
+                [
+                    "Q1179250",
+                    "Daytona International Speedway"
+                ],
+                0.6773620912182644,
+                "daytona"
+            ]
+        ]
+    },
+    {
+        "Id": 9715,
+        "Question": "when is toya carter daughter birthday",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1998-11-29T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7830558",
+                0.07029703259468079,
+                "toya",
+                "Toya"
+            ],
+            [
+                "Q23685",
+                0.059547051787376404,
+                "carter",
+                "Jimmy Carter"
+            ],
+            [
+                "Q308194",
+                0.07917516678571701,
+                "daughter",
+                "daughter"
+            ],
+            [
+                "Q47223",
+                0.11077364534139633,
+                "birthday",
+                "birthday"
+            ]
+        ],
+        "elq": [
+            [
+                "Q6781047",
+                -1.4749141931533813,
+                "toya carter"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q4776261",
+                    "Toya Johnson"
+                ],
+                0.12093712652393339,
+                "toya carter"
+            ]
+        ]
+    },
+    {
+        "Id": 9716,
+        "Question": "what was john adams first wifes first name",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q206191",
+                "WikidataLabel": "Abigail Adams",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/abigail_adams"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q11806",
+                0.5963873863220215,
+                "john adams",
+                "John Adams"
+            ],
+            [
+                "Q188830",
+                0.19938822090625763,
+                "wifes",
+                "wife"
+            ],
+            [
+                "Q202444",
+                0.12527935206890106,
+                "first name",
+                "given name"
+            ]
+        ],
+        "elq": [
+            [
+                "Q11806",
+                -0.9040491580963135,
+                "john adams"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q11806",
+                    "John Adams"
+                ],
+                0.23357781844592995,
+                "john adams"
+            ],
+            [
+                [
+                    "Q188830",
+                    "wife"
+                ],
+                0.4027684972890481,
+                "wifes"
+            ],
+            [
+                [
+                    "Q202444",
+                    "given name"
+                ],
+                0.3880323987282158,
+                "first name"
+            ]
+        ]
+    },
+    {
+        "Id": 9717,
+        "Question": "what were michaels jackson first top ten hits",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q19060",
+                "WikidataLabel": "Got to Be There",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/got_to_be_there"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q193319",
+                "WikidataLabel": "Billie Jean",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/billie_jean"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q49469",
+                "WikidataLabel": "Rockin' Robin",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/rockin_robin"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q49522",
+                "WikidataLabel": "Ben",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/ben_(song)"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q49816",
+                "WikidataLabel": "Don't Stop 'Til You Get Enough",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/don%27t_stop_%27til_you_get_enough"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q978633",
+                0.14409935474395752,
+                "michaels",
+                "Al Michaels"
+            ],
+            [
+                "Q28198",
+                0.14720158278942108,
+                "jackson",
+                "Jackson"
+            ],
+            [
+                "Q1326154",
+                0.07721808552742004,
+                "first",
+                "first baseman"
+            ],
+            [
+                "Q6148929",
+                0.13948681950569153,
+                "top ten",
+                "top 40"
+            ],
+            [
+                "Q1997853",
+                0.14924298226833344,
+                "hits",
+                "musical hit"
+            ]
+        ],
+        "elq": [
+            [
+                "Q2831",
+                -0.3540409505367279,
+                "michaels jackson"
+            ],
+            [
+                "Q6148929",
+                -4.283649444580078,
+                "top ten"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q60772582",
+                    "The Michaels Companies"
+                ],
+                0.08200556416383056,
+                "michaels"
+            ],
+            [
+                [
+                    "Q193259",
+                    "UK Singles Chart"
+                ],
+                0.26013493414659977,
+                "top ten hits"
+            ]
+        ]
+    },
+    {
+        "Id": 9718,
+        "Question": "what is water temperature and weight when it is at a stage point as a basic point",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "22.06"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "647.14"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q283",
+                0.20577576756477356,
+                "water",
+                "water"
+            ],
+            [
+                "Q11466",
+                0.25969475507736206,
+                "temperature",
+                "temperature"
+            ],
+            [
+                "Q11423",
+                0.19385665655136108,
+                "weight",
+                "mass"
+            ],
+            [
+                "Q7596809",
+                0.10526315867900848,
+                "stage point",
+                "Stage Point"
+            ],
+            [
+                "Q11193",
+                0.1663644015789032,
+                "basic",
+                "base"
+            ]
+        ],
+        "elq": [
+            [
+                "Q7596765",
+                -2.715421199798584,
+                "stage point"
+            ],
+            [
+                "Q7558940",
+                -4.051488399505615,
+                "basic point"
+            ],
+            [
+                "Q25288",
+                -4.083384037017822,
+                "weight"
+            ],
+            [
+                "Q283",
+                -4.374959945678711,
+                "water"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q11466",
+                    "temperature"
+                ],
+                0.7338486783823804,
+                "water temperature"
+            ],
+            [
+                [
+                    "Q25288",
+                    "weight"
+                ],
+                0.5093475056802835,
+                "weight"
+            ],
+            [
+                [
+                    "Q818978",
+                    "staging area"
+                ],
+                0.08775663365429547,
+                "a stage point"
+            ],
+            [
+                [
+                    "Q1068091",
+                    "point particle"
+                ],
+                0.478131962150649,
+                "point"
+            ]
+        ]
+    },
+    {
+        "Id": 9719,
+        "Question": "who left the neymar sports crew on 8-3-2017",
+        "Temporal signal": [
+            "FINISH"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7156",
+                "WikidataLabel": "FC Barcelona",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/FC_Barcelona"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7950342",
+                0.04657870531082153,
+                "who",
+                "WHO"
+            ],
+            [
+                "Q164597",
+                0.03118841163814068,
+                "left",
+                "left-wing"
+            ],
+            [
+                "Q142794",
+                0.5524698495864868,
+                "neymar",
+                "Neymar"
+            ],
+            [
+                "Q349",
+                0.1452740728855133,
+                "sports",
+                "sport"
+            ],
+            [
+                "Q159354",
+                0.06730861961841583,
+                "crew",
+                "rowing"
+            ]
+        ],
+        "elq": [
+            [
+                "Q142794",
+                -2.2120635509490967,
+                "neymar sports crew"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q142794",
+                    "Neymar"
+                ],
+                0.2771028995201612,
+                "neymar"
+            ]
+        ]
+    },
+    {
+        "Id": 9720,
+        "Question": "what is software version of twitter that is publication date is 2017-11-14",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "7.11.1"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7397",
+                0.20371924340724945,
+                "software",
+                "software"
+            ],
+            [
+                "Q10859422",
+                0.1457279622554779,
+                "software version",
+                "software versioning"
+            ],
+            [
+                "Q918",
+                0.3608531951904297,
+                "twitter",
+                "Twitter"
+            ],
+            [
+                "Q732577",
+                0.11231902241706848,
+                "publication",
+                "publication"
+            ],
+            [
+                "Q7663751",
+                0.049485329538583755,
+                "date",
+                "system time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q918",
+                -0.4445969760417938,
+                "twitter"
+            ],
+            [
+                "Q7397",
+                -4.169495582580566,
+                "software"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q10859422",
+                    "software versioning"
+                ],
+                0.474508680209872,
+                "software version"
+            ],
+            [
+                [
+                    "Q918",
+                    "Twitter"
+                ],
+                0.5477423111251292,
+                "twitter"
+            ],
+            [
+                [
+                    "Q80949",
+                    "April Fools' Day"
+                ],
+                0.6590245099428103,
+                "publication date"
+            ]
+        ]
+    },
+    {
+        "Id": 9721,
+        "Question": "gustav stresemann ended his chancellorship of germany when",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1923-11-23T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q103955",
+                0.6666706204414368,
+                "gustav stresemann",
+                "Gustav Stresemann"
+            ],
+            [
+                "Q61061",
+                0.04074367880821228,
+                "chancellorship",
+                "chancellor"
+            ],
+            [
+                "Q43287",
+                0.3474850654602051,
+                "germany",
+                "German Empire"
+            ]
+        ],
+        "elq": [
+            [
+                "Q103955",
+                -0.5216802954673767,
+                "gustav stresemann"
+            ],
+            [
+                "Q56022",
+                -2.1347742080688477,
+                "chancellorship of germany"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q103955",
+                    "Gustav Stresemann"
+                ],
+                0.8287180263973948,
+                "gustav stresemann"
+            ],
+            [
+                [
+                    "Q56022",
+                    "Chancellor of Germany"
+                ],
+                0.9701458663738671,
+                "chancellorship"
+            ],
+            [
+                [
+                    "Q183",
+                    "Germany"
+                ],
+                0.4815095074652036,
+                "germany"
+            ]
+        ]
+    },
+    {
+        "Id": 9722,
+        "Question": "at what time did astrakhan join as a twin town with brest",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1999-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q43297",
+                0.05246803164482117,
+                "time",
+                "Time"
+            ],
+            [
+                "Q3927",
+                0.44076111912727356,
+                "astrakhan",
+                "Astrakhan"
+            ],
+            [
+                "Q47232",
+                0.04605487734079361,
+                "join",
+                "enlargement of the European Union"
+            ],
+            [
+                "Q184711",
+                0.23190146684646606,
+                "twin town",
+                "twin town"
+            ],
+            [
+                "Q140147",
+                0.42661774158477783,
+                "brest",
+                "Brest"
+            ]
+        ],
+        "elq": [
+            [
+                "Q140147",
+                -0.7949890494346619,
+                "brest"
+            ],
+            [
+                "Q3927",
+                -1.2051568031311035,
+                "astrakhan"
+            ],
+            [
+                "Q184711",
+                -3.3280160427093506,
+                "twin town"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.06575593729044159,
+                "time"
+            ],
+            [
+                [
+                    "Q3927",
+                    "Astrakhan"
+                ],
+                0.6769269009179906,
+                "astrakhan"
+            ],
+            [
+                [
+                    "Q184711",
+                    "twin town"
+                ],
+                0.2537661942101287,
+                "a twin town"
+            ],
+            [
+                [
+                    "Q12193",
+                    "Brest"
+                ],
+                0.6036549247158782,
+                "brest"
+            ]
+        ]
+    },
+    {
+        "Id": 9723,
+        "Question": "when did ireland become an independent country",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1949-04-18T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q27",
+                0.16943341493606567,
+                "ireland",
+                "Republic of Ireland"
+            ],
+            [
+                "Q7919007",
+                0.023396532982587814,
+                "independent",
+                "Independent station"
+            ],
+            [
+                "Q946040",
+                0.009155643172562122,
+                "country",
+                "National Party of Australia"
+            ]
+        ],
+        "elq": [
+            [
+                "Q22890",
+                -1.6363054513931274,
+                "ireland"
+            ],
+            [
+                "Q3752036",
+                -4.414868354797363,
+                "independent"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q22890",
+                    "Ireland"
+                ],
+                0.3512365389498307,
+                "ireland"
+            ],
+            [
+                [
+                    "Q13116",
+                    "Benelux"
+                ],
+                0.15894907269813396,
+                "an independent country"
+            ]
+        ]
+    },
+    {
+        "Id": 9724,
+        "Question": "what is notable work of flannery o'connor that is publication date is 1971-0-0",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7727192",
+                "WikidataLabel": "The Complete Stories",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/The_Complete_Stories_(O%27Connor)"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q656365",
+                0.10722150653600693,
+                "work",
+                "employment"
+            ],
+            [
+                "Q234579",
+                0.5278920531272888,
+                "flannery o'connor",
+                "Flannery O'Connor"
+            ],
+            [
+                "Q3972943",
+                0.13376043736934662,
+                "publication",
+                "publishing"
+            ],
+            [
+                "Q376596",
+                0.09115728735923767,
+                "date",
+                "courtship"
+            ]
+        ],
+        "elq": [
+            [
+                "Q234579",
+                -0.4142013490200043,
+                "flannery o'connor"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q838948",
+                    "work of art"
+                ],
+                0.3068926468413503,
+                "work"
+            ],
+            [
+                [
+                    "Q234579",
+                    "Flannery O'Connor"
+                ],
+                0.34939121202347684,
+                "flannery o'connor"
+            ],
+            [
+                [
+                    "Q80949",
+                    "April Fools' Day"
+                ],
+                0.1207543411655877,
+                "publication date"
+            ]
+        ]
+    },
+    {
+        "Id": 9725,
+        "Question": "for what team sponsored by beko did messi play in 2011",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7156",
+                "WikidataLabel": "FC Barcelona",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/FC_Barcelona"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q79800",
+                "WikidataLabel": "Argentina national football team",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Argentina_national_football_team"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q216048",
+                0.07960332930088043,
+                "team",
+                "team sport"
+            ],
+            [
+                "Q152478",
+                0.07146649062633514,
+                "sponsored",
+                "sponsor"
+            ],
+            [
+                "Q631792",
+                0.23805217444896698,
+                "beko",
+                "Beko"
+            ],
+            [
+                "Q615",
+                0.2220257967710495,
+                "messi",
+                "Lionel Messi"
+            ],
+            [
+                "Q7116405",
+                0.05256986990571022,
+                "play",
+                "list of manga magazines published outside of Japan"
+            ]
+        ],
+        "elq": [
+            [
+                "Q631792",
+                -1.2850499153137207,
+                "beko"
+            ],
+            [
+                "Q615",
+                -1.6938142776489258,
+                "messi"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q327245",
+                    "team"
+                ],
+                0.366561321996811,
+                "team"
+            ],
+            [
+                [
+                    "Q631792",
+                    "Beko"
+                ],
+                0.5557441413329378,
+                "beko"
+            ],
+            [
+                [
+                    "Q615",
+                    "Lionel Messi"
+                ],
+                0.702082628596922,
+                "messi"
+            ]
+        ]
+    },
+    {
+        "Id": 9726,
+        "Question": "capital of germany 1914",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q64",
+                "WikidataLabel": "Berlin",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/berlin"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q5035711",
+                0.2820793688297272,
+                "capital of germany",
+                "capital city of Germany"
+            ],
+            [
+                "Q43287",
+                0.43546026945114136,
+                "germany",
+                "German Empire"
+            ]
+        ],
+        "elq": [
+            [
+                "Q183",
+                -1.9001456499099731,
+                "germany"
+            ],
+            [
+                "Q5119",
+                -3.508244037628174,
+                "capital"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q5119",
+                    "capital city"
+                ],
+                0.27571467008861594,
+                "capital"
+            ],
+            [
+                [
+                    "Q183",
+                    "Germany"
+                ],
+                0.21423332474314388,
+                "germany"
+            ]
+        ]
+    },
+    {
+        "Id": 9727,
+        "Question": "who was the leading role actress nominated for an oscar in 1999",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q229535",
+                "WikidataLabel": "Emily Watson",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/emily_watson"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q34460",
+                "WikidataLabel": "Gwyneth Paltrow",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/gwyneth_paltrow"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q80966",
+                "WikidataLabel": "Cate Blanchett",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/cate_blanchett"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q873",
+                "WikidataLabel": "Meryl Streep",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/meryl_streep"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q93346",
+                0.08575133234262466,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q1765879",
+                0.09708639979362488,
+                "leading role",
+                "leading actor"
+            ],
+            [
+                "Q33999",
+                0.14425382018089294,
+                "actress",
+                "actor"
+            ],
+            [
+                "Q1075783",
+                0.0751877948641777,
+                "nominated",
+                "Choice Music Prize"
+            ],
+            [
+                "Q19020",
+                0.18437336385250092,
+                "oscar",
+                "Academy Awards"
+            ]
+        ],
+        "elq": [
+            [
+                "Q19020",
+                -2.052577257156372,
+                "oscar"
+            ],
+            [
+                "Q1765879",
+                -3.154761552810669,
+                "leading role actress"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q33999",
+                    "actor"
+                ],
+                0.5312179409854011,
+                "actress"
+            ],
+            [
+                [
+                    "Q19020",
+                    "Academy Awards"
+                ],
+                0.8006982110585361,
+                "oscar"
+            ]
+        ]
+    },
+    {
+        "Id": 9728,
+        "Question": "who is the current prime minister of the country of the the 3rd new zealand parliament",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3606816",
+                "WikidataLabel": "Jacinda Ardern",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jacinda_Ardern"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.09738543629646301,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q6326982",
+                0.001926264725625515,
+                "current",
+                "KCMP"
+            ],
+            [
+                "Q1071117",
+                0.2641020715236664,
+                "prime minister",
+                "Prime Minister of New Zealand"
+            ],
+            [
+                "Q179671",
+                0.11956539750099182,
+                "country",
+                "nation state"
+            ],
+            [
+                "Q4636893",
+                0.582453191280365,
+                "3rd new zealand parliament",
+                "3rd New Zealand Parliament"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1071117",
+                -1.6521869897842407,
+                "prime minister of the country"
+            ],
+            [
+                "Q4636893",
+                -1.6950420141220093,
+                "3rd new zealand parliament"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q14211",
+                    "Prime Minister of the United Kingdom"
+                ],
+                0.6717463071436426,
+                "the current prime minister"
+            ],
+            [
+                [
+                    "Q145",
+                    "United Kingdom"
+                ],
+                0.46435918102901425,
+                "the country"
+            ],
+            [
+                [
+                    "Q664",
+                    "New Zealand"
+                ],
+                0.22584859534506896,
+                "new zealand"
+            ],
+            [
+                [
+                    "Q11010",
+                    "Parliament of the United Kingdom"
+                ],
+                0.7290452283265654,
+                "parliament"
+            ]
+        ]
+    },
+    {
+        "Id": 9729,
+        "Question": "when did peter singer finish his educated at the university of melbourne",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1967-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q211539",
+                0.7098138928413391,
+                "peter singer",
+                "Peter Singer"
+            ],
+            [
+                "Q319078",
+                0.6988452672958374,
+                "university of melbourne",
+                "University of Melbourne"
+            ]
+        ],
+        "elq": [
+            [
+                "Q319078",
+                -0.41790348291397095,
+                "university of melbourne"
+            ],
+            [
+                "Q211539",
+                -1.451612114906311,
+                "peter singer"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q33923",
+                    "Peter"
+                ],
+                0.09701966327508448,
+                "peter"
+            ],
+            [
+                [
+                    "Q319078",
+                    "University of Melbourne"
+                ],
+                0.41908987557324184,
+                "the university of melbourne"
+            ]
+        ]
+    },
+    {
+        "Id": 9730,
+        "Question": "when did the miami dolphins win there first super bowl",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal",
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1972-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q223243",
+                0.819025993347168,
+                "miami dolphins",
+                "Miami Dolphins"
+            ],
+            [
+                "Q765031",
+                0.27091389894485474,
+                "win",
+                "Young Americans"
+            ],
+            [
+                "Q32096",
+                0.5555797219276428,
+                "super bowl",
+                "Super Bowl"
+            ]
+        ],
+        "elq": [
+            [
+                "Q223243",
+                -0.6368853449821472,
+                "miami dolphins"
+            ],
+            [
+                "Q32096",
+                -2.2591354846954346,
+                "super bowl"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q223243",
+                    "Miami Dolphins"
+                ],
+                0.9442678060690455,
+                "miami"
+            ],
+            [
+                [
+                    "Q847827",
+                    "Super Bowl I"
+                ],
+                0.8405972042665477,
+                "first super bowl"
+            ]
+        ]
+    },
+    {
+        "Id": 9731,
+        "Question": "who currently plays for the boston celtics that started their career after 2001",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q16935026",
+                "WikidataLabel": "R. J. Hunter",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/R._J._Hunter"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q19664817",
+                "WikidataLabel": "Jaylen Brown",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jaylen_Brown"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q20031584",
+                "WikidataLabel": "Terry Rozier",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Terry_Rozier"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q21294876",
+                "WikidataLabel": "Guerschon Yabusele",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Guerschon_Yabusele"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q21623063",
+                "WikidataLabel": "Jayson Tatum",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jayson_Tatum"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2260799",
+                "WikidataLabel": "Marcus Morris",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Marcus_Morris_Sr."
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q28151848",
+                "WikidataLabel": "Robert Williams",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Robert_Williams_(basketball)"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q29166745",
+                "WikidataLabel": "P. J. Dozier",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/P._J._Dozier"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q2923495",
+                "WikidataLabel": "Brad Wanamaker",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Brad_Wanamaker"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q29281952",
+                "WikidataLabel": "Semi Ojeleye",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Semi_Ojeleye"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q348618",
+                "WikidataLabel": "Kyrie Irving",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Kyrie_Irving"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3809921",
+                "WikidataLabel": "Jonathan Gibson",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jonathan_Gibson_(basketball)"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q521931",
+                "WikidataLabel": "Al Horford",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Al_Horford"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q6758454",
+                "WikidataLabel": "Marcus Smart",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Marcus_Smart"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q698125",
+                "WikidataLabel": "Aron Baynes",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Aron_Baynes"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q919197",
+                "WikidataLabel": "Gordon Hayward",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Gordon_Hayward"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q994442",
+                "WikidataLabel": "Daniel Theis",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Daniel_Theis"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q93346",
+                0.08017688244581223,
+                "who",
+                "The Who"
+            ],
+            [
+                "Q11635",
+                0.06510289013385773,
+                "plays",
+                "theatre"
+            ],
+            [
+                "Q131371",
+                0.5481565594673157,
+                "boston celtics",
+                "Boston Celtics"
+            ]
+        ],
+        "elq": [
+            [
+                "Q131371",
+                -0.27963027358055115,
+                "boston celtics"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q131371",
+                    "Boston Celtics"
+                ],
+                0.3580523215413952,
+                "the boston celtics"
+            ],
+            [
+                [
+                    "Q48890",
+                    "college basketball"
+                ],
+                0.8196351892930589,
+                "career"
+            ]
+        ]
+    },
+    {
+        "Id": 9732,
+        "Question": "what is the start time for aurangabad has located in the administrative territorial entity as hyderabad state",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1724-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1803-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q931492",
+                0.04034098982810974,
+                "start",
+                "START I"
+            ],
+            [
+                "Q43297",
+                0.08473078161478043,
+                "time",
+                "Time"
+            ],
+            [
+                "Q200713",
+                0.4903322458267212,
+                "aurangabad",
+                "Aurangabad"
+            ],
+            [
+                "Q1240096",
+                0.30000001192092896,
+                "administrative territorial entity",
+                "Hyderabad State"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1240096",
+                -0.6342658400535583,
+                "hyderabad state"
+            ],
+            [
+                "Q200713",
+                -2.1288700103759766,
+                "aurangabad"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.03857886143970974,
+                "the start time"
+            ],
+            [
+                [
+                    "Q200713",
+                    "Aurangabad"
+                ],
+                0.6120210305462785,
+                "aurangabad"
+            ],
+            [
+                [
+                    "Q1361",
+                    "Hyderabad"
+                ],
+                0.10605855702738463,
+                "the administrative territorial entity"
+            ]
+        ]
+    },
+    {
+        "Id": 9733,
+        "Question": "what is country of mantua that is start time is 1805-3-17",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q223936",
+                "WikidataLabel": "Kingdom of Italy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q179671",
+                0.05729508399963379,
+                "country",
+                "nation state"
+            ],
+            [
+                "Q16204",
+                0.35621219873428345,
+                "mantua",
+                "Province of Mantua"
+            ],
+            [
+                "Q931492",
+                0.0016792872920632362,
+                "start",
+                "START I"
+            ],
+            [
+                "Q11471",
+                0.053213056176900864,
+                "time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q6247",
+                -0.7098081111907959,
+                "mantua"
+            ],
+            [
+                "Q6256",
+                -4.328932285308838,
+                "country"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q83440",
+                    "country music"
+                ],
+                0.1024981342988425,
+                "country"
+            ],
+            [
+                [
+                    "Q6247",
+                    "Mantua"
+                ],
+                0.09547283438897095,
+                "mantua"
+            ],
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.012191371232666665,
+                "start time"
+            ]
+        ]
+    },
+    {
+        "Id": 9734,
+        "Question": "when was cesare lombroso was nominated for nobel pirze in physiology or medicine",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1905-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1907-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1908-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1909-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q202420",
+                0.6523996591567993,
+                "cesare lombroso",
+                "Cesare Lombroso"
+            ],
+            [
+                "Q618536",
+                0.06206611171364784,
+                "nominated",
+                "candidate"
+            ],
+            [
+                "Q80061",
+                0.29626184701919556,
+                "nobel",
+                "Nobel Prize in Physiology or Medicine"
+            ],
+            [
+                "Q521",
+                0.30886679887771606,
+                "physiology",
+                "physiology"
+            ],
+            [
+                "Q80061",
+                0.29626184701919556,
+                "nobel",
+                "Nobel Prize in Physiology or Medicine"
+            ]
+        ],
+        "elq": [
+            [
+                "Q202420",
+                -0.5299755930900574,
+                "cesare lombroso"
+            ],
+            [
+                "Q80061",
+                -1.9593768119812012,
+                "nobel pirze in physiology or medicine"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q202420",
+                    "Cesare Lombroso"
+                ],
+                0.799723785158902,
+                "cesare lombroso"
+            ],
+            [
+                [
+                    "Q7191",
+                    "Nobel Prize"
+                ],
+                0.8288449835525479,
+                "nobel"
+            ],
+            [
+                [
+                    "Q521",
+                    "physiology"
+                ],
+                0.919911565659089,
+                "physiology"
+            ],
+            [
+                [
+                    "Q11190",
+                    "medicine"
+                ],
+                0.7332389162287813,
+                "medicine"
+            ]
+        ]
+    },
+    {
+        "Id": 9735,
+        "Question": "when did antony tudor receive an award at kennedy center honors",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1986-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q608183",
+                0.5919924974441528,
+                "antony tudor",
+                "Antony Tudor"
+            ],
+            [
+                "Q1415017",
+                0.08538346737623215,
+                "award",
+                "Writers Guild of America Award"
+            ],
+            [
+                "Q1631981",
+                0.4313628077507019,
+                "kennedy center",
+                "John F. Kennedy Center for the Performing Arts"
+            ],
+            [
+                "Q6581478",
+                0.10204977542161942,
+                "honors",
+                "Latin honors"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1738793",
+                -0.6764771342277527,
+                "kennedy center honors"
+            ],
+            [
+                "Q608183",
+                -0.9005242586135864,
+                "antony tudor"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q608183",
+                    "Antony Tudor"
+                ],
+                0.27231548827447677,
+                "antony tudor"
+            ],
+            [
+                [
+                    "Q973645",
+                    "Pacem in Terris Award"
+                ],
+                0.19900371202044334,
+                "an award"
+            ],
+            [
+                [
+                    "Q1738793",
+                    "Kennedy Center Honors"
+                ],
+                0.652706676523481,
+                "kennedy center honors"
+            ]
+        ]
+    },
+    {
+        "Id": 9736,
+        "Question": "who won the 2010 gubernatorial race in the location of the connecticut supreme court",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q241788",
+                "WikidataLabel": "Jodi Rell",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Jodi_Rell"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.08586651086807251,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q754575",
+                0.022370219230651855,
+                "won",
+                "football at the 1996 Summer Olympics"
+            ],
+            [
+                "Q4151335",
+                0.10486380755901337,
+                "gubernatorial",
+                "Governor of Kentucky"
+            ],
+            [
+                "Q8461",
+                0.09361306577920914,
+                "race",
+                "racism"
+            ],
+            [
+                "Q1072",
+                0.08314154297113419,
+                "location",
+                "heart"
+            ],
+            [
+                "Q5161630",
+                0.5620805025100708,
+                "connecticut supreme court",
+                "Connecticut Supreme Court"
+            ]
+        ],
+        "elq": [
+            [
+                "Q5161630",
+                -0.7645889520645142,
+                "connecticut supreme court"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q5161665",
+                    "2010 Connecticut gubernatorial election"
+                ],
+                0.6758845713781361,
+                "the 2010 gubernatorial race"
+            ],
+            [
+                [
+                    "Q732858",
+                    "Gotham City"
+                ],
+                0.11300846164163,
+                "the location"
+            ],
+            [
+                [
+                    "Q5161630",
+                    "Connecticut Supreme Court"
+                ],
+                0.3014129544028874,
+                "the connecticut supreme court"
+            ]
+        ]
+    },
+    {
+        "Id": 9737,
+        "Question": "when was e. m. forster nominated for the nobel prize for literature",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1945-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1946-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1950-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1952-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1953-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1954-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1955-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1956-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1957-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1959-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1960-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1961-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1962-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1963-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1964-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1965-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1966-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q189119",
+                0.6361497640609741,
+                "e. m. forster",
+                "E. M. Forster"
+            ],
+            [
+                "Q618536",
+                0.06760887056589127,
+                "nominated",
+                "candidate"
+            ],
+            [
+                "Q37922",
+                0.5917887091636658,
+                "nobel prize for literature",
+                "Nobel Prize in Literature"
+            ]
+        ],
+        "elq": [
+            [
+                "Q189119",
+                -0.21392446756362915,
+                "e. m. forster"
+            ],
+            [
+                "Q37922",
+                -0.6322585940361023,
+                "nobel prize for literature"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q189119",
+                    "E. M. Forster"
+                ],
+                0.7483709111828052,
+                "e. m. forster"
+            ],
+            [
+                [
+                    "Q7191",
+                    "Nobel Prize"
+                ],
+                0.818078077400123,
+                "the nobel prize"
+            ],
+            [
+                [
+                    "Q8242",
+                    "literature"
+                ],
+                0.5499854556029632,
+                "literature"
+            ]
+        ]
+    },
+    {
+        "Id": 9738,
+        "Question": "tell the time period of william shakespeare lived in stratford-upon-avon",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1564-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q30908",
+                0.08522924780845642,
+                "tell",
+                "William Tell"
+            ],
+            [
+                "Q11471",
+                0.03285551816225052,
+                "time",
+                "time"
+            ],
+            [
+                "Q7168625",
+                0.12582489848136902,
+                "period",
+                "historical drama"
+            ],
+            [
+                "Q692",
+                0.6932763457298279,
+                "william shakespeare",
+                "William Shakespeare"
+            ],
+            [
+                "Q189288",
+                0.48475128412246704,
+                "stratford-upon-avon",
+                "Stratford-upon-Avon"
+            ]
+        ],
+        "elq": [
+            [
+                "Q692",
+                -0.3044891953468323,
+                "william shakespeare"
+            ],
+            [
+                "Q189288",
+                -0.43944165110588074,
+                "stratford - upon - avon"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q309",
+                    "history"
+                ],
+                0.08106016591217609,
+                "the time period"
+            ],
+            [
+                [
+                    "Q692",
+                    "William Shakespeare"
+                ],
+                0.7975520830695308,
+                "william shakespeare"
+            ],
+            [
+                [
+                    "Q189288",
+                    "Stratford-upon-Avon"
+                ],
+                0.8807565213579589,
+                "stratford-upon-avon"
+            ]
+        ]
+    },
+    {
+        "Id": 9739,
+        "Question": "when did djibouti have an inflation rate of 2.5",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2013-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q977",
+                0.6771262884140015,
+                "djibouti",
+                "Djibouti"
+            ],
+            [
+                "Q35865",
+                0.4407709836959839,
+                "inflation",
+                "inflation"
+            ],
+            [
+                "Q35865",
+                0.4407709836959839,
+                "inflation",
+                "inflation"
+            ]
+        ],
+        "elq": [
+            [
+                "Q977",
+                -1.2100614309310913,
+                "djibouti"
+            ],
+            [
+                "Q35865",
+                -2.5761804580688477,
+                "inflation rate"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q977",
+                    "Djibouti"
+                ],
+                0.1308955944109461,
+                "djibouti"
+            ],
+            [
+                [
+                    "Q35865",
+                    "inflation"
+                ],
+                0.34068962113438683,
+                "an inflation rate"
+            ]
+        ]
+    },
+    {
+        "Id": 9740,
+        "Question": "what is continent of participants of cold war",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q46",
+                "WikidataLabel": "Europe",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Europe"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q15",
+                0.17410559952259064,
+                "continent",
+                "Africa"
+            ],
+            [
+                "Q8683",
+                0.5308851003646851,
+                "cold war",
+                "Cold War"
+            ]
+        ],
+        "elq": [
+            [
+                "Q8683",
+                -0.4023458957672119,
+                "cold war"
+            ],
+            [
+                "Q5107",
+                -3.0305819511413574,
+                "continent"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q46",
+                    "Europe"
+                ],
+                0.3775192177421234,
+                "continent"
+            ],
+            [
+                [
+                    "Q1331083",
+                    "human subject research project"
+                ],
+                0.22452684756124378,
+                "participants"
+            ],
+            [
+                [
+                    "Q8683",
+                    "Cold War"
+                ],
+                0.5321584378885034,
+                "cold war"
+            ]
+        ]
+    },
+    {
+        "Id": 9741,
+        "Question": "what is the point in time for yukio mishima has nominated for as nobel prize in literature",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1963-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1964-01-01T00:00:00Z"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1965-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q11471",
+                0.18301427364349365,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.18301427364349365,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q134456",
+                0.5596619248390198,
+                "yukio mishima",
+                "Yukio Mishima"
+            ],
+            [
+                "Q618536",
+                0.09338902682065964,
+                "nominated",
+                "candidate"
+            ],
+            [
+                "Q37922",
+                0.647020161151886,
+                "nobel prize in literature",
+                "Nobel Prize in Literature"
+            ]
+        ],
+        "elq": [
+            [
+                "Q37922",
+                -0.8234057426452637,
+                "nobel prize in literature"
+            ],
+            [
+                "Q134456",
+                -0.9537817239761353,
+                "yukio mishima"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7757588",
+                    "The Point!"
+                ],
+                0.17654892642155823,
+                "the point"
+            ],
+            [
+                [
+                    "Q50008",
+                    "The Times"
+                ],
+                0.12327294906597606,
+                "time"
+            ],
+            [
+                [
+                    "Q134456",
+                    "Yukio Mishima"
+                ],
+                0.6631899550085089,
+                "yukio mishima"
+            ],
+            [
+                [
+                    "Q7191",
+                    "Nobel Prize"
+                ],
+                0.6406967989866675,
+                "nobel prize"
+            ],
+            [
+                [
+                    "Q8242",
+                    "literature"
+                ],
+                0.5171607871067126,
+                "literature"
+            ]
+        ]
+    },
+    {
+        "Id": 9742,
+        "Question": "what is population of le mans that is point in time is 2015-1-1",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "143325"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q11188",
+                0.11273754388093948,
+                "population",
+                "world population"
+            ],
+            [
+                "Q187579",
+                0.1924964189529419,
+                "le mans",
+                "24 Hours of Le Mans"
+            ],
+            [
+                "Q11471",
+                0.22392599284648895,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.22392599284648895,
+                "point in time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1476",
+                -0.8787878155708313,
+                "le mans"
+            ],
+            [
+                "Q1790144",
+                -3.356630802154541,
+                "point in time"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q2625603",
+                    "population"
+                ],
+                0.07796771689376719,
+                "population"
+            ],
+            [
+                [
+                    "Q903354",
+                    "defensive end"
+                ],
+                0.17855676128710452,
+                "le"
+            ],
+            [
+                [
+                    "Q44946",
+                    "point"
+                ],
+                0.1075464158333075,
+                "point"
+            ],
+            [
+                [
+                    "Q11471",
+                    "time"
+                ],
+                0.20639990833629834,
+                "time"
+            ]
+        ]
+    },
+    {
+        "Id": 9743,
+        "Question": "what is nominated for of clint eastwood that is statement is subject of is 76th academy awards",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q102427",
+                "WikidataLabel": "Academy Award for Best Picture",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q103360",
+                "WikidataLabel": "Academy Award for Best Director",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q2815679",
+                0.09439574182033539,
+                "nominated",
+                "28th Genie Awards"
+            ],
+            [
+                "Q43203",
+                0.6014088988304138,
+                "clint eastwood",
+                "Clint Eastwood"
+            ],
+            [
+                "Q1272835",
+                0.15224039554595947,
+                "statement",
+                "The Statement"
+            ],
+            [
+                "Q164573",
+                0.002726732986047864,
+                "subject",
+                "subject"
+            ],
+            [
+                "Q4643534",
+                0.01149425283074379,
+                "76th",
+                "76th United States Congress"
+            ],
+            [
+                "Q19020",
+                0.2605157494544983,
+                "academy awards",
+                "Academy Awards"
+            ]
+        ],
+        "elq": [
+            [
+                "Q43203",
+                -0.5339644551277161,
+                "clint eastwood"
+            ],
+            [
+                "Q458646",
+                -0.5514336228370667,
+                "76th academy awards"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q43203",
+                    "Clint Eastwood"
+                ],
+                0.33775203352988914,
+                "clint eastwood"
+            ],
+            [
+                [
+                    "Q9916",
+                    "Dwight D. Eisenhower"
+                ],
+                0.3192581255967674,
+                "statement"
+            ],
+            [
+                [
+                    "Q19020",
+                    "Academy Awards"
+                ],
+                0.7543659668911996,
+                "academy"
+            ]
+        ]
+    },
+    {
+        "Id": 9744,
+        "Question": "what year did raymond aron begin work at the coll\u00e8ge de france",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1970-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q16967243",
+                0.2750000059604645,
+                "what year",
+                "What a Year"
+            ],
+            [
+                "Q160640",
+                0.6064422726631165,
+                "raymond aron",
+                "Raymond Aron"
+            ],
+            [
+                "Q130873",
+                0.0008247104706242681,
+                "begin",
+                "Menachem Begin"
+            ],
+            [
+                "Q848010",
+                0.0007855459698475897,
+                "begin work",
+                "database transaction"
+            ],
+            [
+                "Q838948",
+                0.0803164541721344,
+                "work",
+                "work of art"
+            ],
+            [
+                "Q202660",
+                0.5425244569778442,
+                "coll\u00e8ge de france",
+                "Coll\u00e8ge de France"
+            ]
+        ],
+        "elq": [
+            [
+                "Q202660",
+                -0.6166296601295471,
+                "college de france"
+            ],
+            [
+                "Q160640",
+                -0.7294371128082275,
+                "raymond aron"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q577",
+                    "year"
+                ],
+                0.02885197693249094,
+                "year"
+            ],
+            [
+                [
+                    "Q160640",
+                    "Raymond Aron"
+                ],
+                0.49045010266294725,
+                "raymond aron"
+            ],
+            [
+                [
+                    "Q207628",
+                    "composed musical work"
+                ],
+                0.22108876361150975,
+                "work"
+            ],
+            [
+                [
+                    "Q202660",
+                    "Coll\u00e8ge de France"
+                ],
+                0.6029600387375103,
+                "the coll\u00e8ge de france"
+            ]
+        ]
+    },
+    {
+        "Id": 9745,
+        "Question": "when the notable personage who had a medical diagnosis of addison's disease was shot, where was he",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q16557",
+                "WikidataLabel": "Dallas",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Dallas"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.21567028760910034,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q177719",
+                0.3997018039226532,
+                "medical diagnosis",
+                "medical diagnosis"
+            ],
+            [
+                "Q8282",
+                0.7186753153800964,
+                "addison's disease",
+                "Addison's disease"
+            ],
+            [
+                "Q245359",
+                0.23857368528842926,
+                "shot",
+                "injection"
+            ]
+        ],
+        "elq": [
+            [
+                "Q8282",
+                -0.14458249509334564,
+                "addison's disease"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q177719",
+                    "medical diagnosis"
+                ],
+                0.596558832439217,
+                "a medical diagnosis"
+            ],
+            [
+                [
+                    "Q353089",
+                    "Addison"
+                ],
+                0.0505806129529058,
+                "addison"
+            ]
+        ]
+    },
+    {
+        "Id": 9746,
+        "Question": "who was zeus' eldest sister",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q41419",
+                "WikidataLabel": "Hestia",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/hestia"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.05829686298966408,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q34201",
+                0.4539634883403778,
+                "zeus",
+                "Zeus"
+            ],
+            [
+                "Q308982",
+                0.0006202655495144427,
+                "eldest",
+                "Eldest"
+            ],
+            [
+                "Q595094",
+                0.09187368303537369,
+                "sister",
+                "sister"
+            ]
+        ],
+        "elq": [
+            [
+                "Q34201",
+                -1.6214313507080078,
+                "zeus"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q34201",
+                    "Zeus"
+                ],
+                0.6425931774127782,
+                "zeus"
+            ],
+            [
+                [
+                    "Q129179",
+                    "Mar\u00eda de las Mercedes, Princess of Asturias"
+                ],
+                0.2575609880661743,
+                "eldest sister"
+            ]
+        ]
+    },
+    {
+        "Id": 9747,
+        "Question": "what award was received by la strada at the 29th academy awards",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q105304",
+                "WikidataLabel": "Academy Award for Best Foreign Language Film",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_International_Feature_Film"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q18402",
+                0.7513116598129272,
+                "la strada",
+                "La Strada"
+            ],
+            [
+                "Q787207",
+                0.8287452459335327,
+                "29th academy awards",
+                "29th Academy Awards"
+            ]
+        ],
+        "elq": [
+            [
+                "Q787207",
+                -0.4625292122364044,
+                "29th academy awards"
+            ],
+            [
+                "Q18402",
+                -1.8420220613479614,
+                "la strada"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q618779",
+                    "award"
+                ],
+                0.4261839795912236,
+                "award"
+            ],
+            [
+                [
+                    "Q18402",
+                    "La Strada"
+                ],
+                0.27712652426870155,
+                "la strada"
+            ],
+            [
+                [
+                    "Q787207",
+                    "29th Academy Awards"
+                ],
+                0.5930832416966558,
+                "the 29th"
+            ]
+        ]
+    },
+    {
+        "Id": 9748,
+        "Question": "who was kim kardashian's first husband",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q21013519",
+                "WikidataLabel": "Damon Thomas",
+                "WikipediaURL": ""
+            }
+        ],
+        "Data source": "WebQuestions (EMNLP 2013)",
+        "Question creation date": "2013-10-18",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q7817",
+                0.034489963203668594,
+                "who",
+                "World Health Organization"
+            ],
+            [
+                "Q186304",
+                0.6235915422439575,
+                "kim kardashian",
+                "Kim Kardashian"
+            ],
+            [
+                "Q8563335",
+                0.09186244010925293,
+                "first",
+                "First"
+            ],
+            [
+                "Q1494885",
+                0.0010876684682443738,
+                "husband",
+                "Gary Husband"
+            ]
+        ],
+        "elq": [
+            [
+                "Q186304",
+                -0.36070728302001953,
+                "kim kardashian"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q186304",
+                    "Kim Kardashian"
+                ],
+                0.6149659848853197,
+                "kim kardashian's"
+            ],
+            [
+                [
+                    "Q203184",
+                    "First Lady"
+                ],
+                0.4818503596589299,
+                "first husband"
+            ]
+        ]
+    },
+    {
+        "Id": 9749,
+        "Question": "what year did berlie doherty write street child",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "1993-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q16967243",
+                0.2750000059604645,
+                "what year",
+                "What a Year"
+            ],
+            [
+                "Q276472",
+                0.5,
+                "berlie doherty",
+                "Berlie Doherty"
+            ],
+            [
+                "Q2479497",
+                0.0018295637564733624,
+                "write",
+                "Write-in candidate"
+            ],
+            [
+                "Q501846",
+                0.22596153616905212,
+                "street child",
+                "street child"
+            ]
+        ],
+        "elq": [
+            [
+                "Q276472",
+                -0.9018226861953735,
+                "berlie doherty"
+            ],
+            [
+                "Q501846",
+                -1.9194920063018799,
+                "street child"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q577",
+                    "year"
+                ],
+                0.027265779294603353,
+                "year"
+            ],
+            [
+                [
+                    "Q276472",
+                    "Berlie Doherty"
+                ],
+                0.036999273425655996,
+                "berlie doherty"
+            ],
+            [
+                [
+                    "Q2760886",
+                    "Huston Street"
+                ],
+                0.06848557816163359,
+                "street"
+            ]
+        ]
+    },
+    {
+        "Id": 9750,
+        "Question": "the first disney film ever",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q134430",
+                "WikidataLabel": "Snow White and the Seven Dwarfs",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/snow_white_and_the_seven_dwarfs_(1937_film)"
+            }
+        ],
+        "Data source": "ComQA (NAACL 2019)",
+        "Question creation date": "2019-06-03",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q185029",
+                0.12059453129768372,
+                "first",
+                "first-person shooter"
+            ],
+            [
+                "Q7414",
+                0.3120512068271637,
+                "disney",
+                "The Walt Disney Company"
+            ],
+            [
+                "Q11424",
+                0.1650928109884262,
+                "film",
+                "film"
+            ]
+        ],
+        "elq": [
+            [
+                "Q7414",
+                -3.198129177093506,
+                "disney"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q7414",
+                    "The Walt Disney Company"
+                ],
+                0.4758172050347175,
+                "disney"
+            ]
+        ]
+    },
+    {
+        "Id": 9751,
+        "Question": "for what sports team founded in 1893 did messi play in 2011",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q7156",
+                "WikidataLabel": "FC Barcelona",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/FC_Barcelona"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q79800",
+                "WikidataLabel": "Argentina national football team",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Argentina_national_football_team"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q349",
+                0.18432360887527466,
+                "sports team",
+                "sport"
+            ],
+            [
+                "Q615",
+                0.12791620194911957,
+                "messi",
+                "Lionel Messi"
+            ],
+            [
+                "Q1706492",
+                0.09641886502504349,
+                "play",
+                "American football play"
+            ]
+        ],
+        "elq": [
+            [
+                "Q615",
+                -1.357121229171753,
+                "messi"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q216048",
+                    "team sport"
+                ],
+                0.47976886115947137,
+                "sports team"
+            ],
+            [
+                [
+                    "Q615",
+                    "Lionel Messi"
+                ],
+                0.5723074150714679,
+                "messi"
+            ]
+        ]
+    },
+    {
+        "Id": 9752,
+        "Question": "what is member of sports team of michel platini that is start time is 1982-1-1",
+        "Temporal signal": [
+            "START"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q1422",
+                "WikidataLabel": "Juventus F.C.",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Juventus_F.C."
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q188628",
+                0.05714430287480354,
+                "member",
+                "board of directors"
+            ],
+            [
+                "Q216048",
+                0.07028654217720032,
+                "sports team",
+                "team sport"
+            ],
+            [
+                "Q4261",
+                0.6136165261268616,
+                "michel platini",
+                "Michel Platini"
+            ],
+            [
+                "Q737947",
+                0.04794391244649887,
+                "start",
+                "IK Start"
+            ],
+            [
+                "Q43297",
+                0.07116374373435974,
+                "time",
+                "Time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q4261",
+                -0.18995577096939087,
+                "michel platini"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q486839",
+                    "member of parliament"
+                ],
+                0.06861300483380847,
+                "member"
+            ],
+            [
+                [
+                    "Q216048",
+                    "team sport"
+                ],
+                0.30460286635089,
+                "sports team"
+            ],
+            [
+                [
+                    "Q4261",
+                    "Michel Platini"
+                ],
+                0.48120923226476175,
+                "michel platini"
+            ],
+            [
+                [
+                    "Q7602590",
+                    "Starting Time"
+                ],
+                0.07237559507876723,
+                "start time"
+            ]
+        ]
+    },
+    {
+        "Id": 9753,
+        "Question": "when did bono receive the ted prize, and how much was he awarded as recipient",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Temp.Ans"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "100000"
+            },
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "2005-01-01T00:00:00Z"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q834621",
+                0.3681313395500183,
+                "bono",
+                "Bono"
+            ],
+            [
+                "Q189021",
+                0.5495811700820923,
+                "ted prize",
+                "TED"
+            ]
+        ],
+        "elq": [
+            [
+                "Q189021",
+                -0.6490633487701416,
+                "ted prize"
+            ],
+            [
+                "Q834621",
+                -2.438629150390625,
+                "bono"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q834621",
+                    "Bono"
+                ],
+                0.16459127788332484,
+                "bono"
+            ],
+            [
+                [
+                    "Q134549",
+                    "Ted Kennedy"
+                ],
+                0.3458994285524643,
+                "ted"
+            ],
+            [
+                [
+                    "Q4683443",
+                    "Administration of federal assistance in the United States"
+                ],
+                0.16735051611314428,
+                "recipient"
+            ]
+        ]
+    },
+    {
+        "Id": 9754,
+        "Question": "which venue hosting the 2012 world series has the largest capacity",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q868482",
+                "WikidataLabel": "Comerica Park",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Comerica_Park"
+            }
+        ],
+        "Data source": "ComplexWebQuestions (NAACL 2018)",
+        "Question creation date": "2018-06-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q809889",
+                0.18086108565330505,
+                "venue",
+                "baseball field"
+            ],
+            [
+                "Q497240",
+                0.0019006794318556786,
+                "hosting",
+                "master of ceremonies"
+            ],
+            [
+                "Q1190373",
+                0.4351314306259155,
+                "2012 world series",
+                "2012 World Series"
+            ],
+            [
+                "Q16685058",
+                0.11764184385538101,
+                "capacity",
+                "seating capacity"
+            ]
+        ],
+        "elq": [
+            [
+                "Q1190373",
+                -1.1868433952331543,
+                "2012 world series"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q8719053",
+                    "music venue"
+                ],
+                0.3617219827232323,
+                "venue"
+            ],
+            [
+                [
+                    "Q1190373",
+                    "2012 World Series"
+                ],
+                0.10849245037497315,
+                "the 2012 world series"
+            ],
+            [
+                [
+                    "Q210932",
+                    "airliner"
+                ],
+                0.13828401403462734,
+                "the largest capacity"
+            ]
+        ]
+    },
+    {
+        "Id": 9755,
+        "Question": "what number of cities bid to host the 2008 summer olympics",
+        "Temporal signal": [
+            "No signal"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "5"
+            }
+        ],
+        "Data source": "GraphQuestions (EMNLP 2016)",
+        "Question creation date": "2016-11-01",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q1231558",
+                0.09649446606636047,
+                "number of cities",
+                "smart city"
+            ],
+            [
+                "Q515",
+                0.030834918841719627,
+                "cities",
+                "city"
+            ],
+            [
+                "Q15917212",
+                0.0051369862630963326,
+                "bid to host",
+                "Zakopane bid for the 2006 Winter Olympics"
+            ],
+            [
+                "Q44127",
+                0.05860261991620064,
+                "host",
+                "server"
+            ],
+            [
+                "Q8567",
+                0.4918467104434967,
+                "2008 summer olympics",
+                "2008 Summer Olympics"
+            ]
+        ],
+        "elq": [
+            [
+                "Q8567",
+                -0.7417137026786804,
+                "2008 summer olympics"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q11563",
+                    "number"
+                ],
+                0.0764776047754406,
+                "number"
+            ],
+            [
+                [
+                    "Q515",
+                    "city"
+                ],
+                0.21020433685281603,
+                "cities"
+            ],
+            [
+                [
+                    "Q8567",
+                    "2008 Summer Olympics"
+                ],
+                0.35735710035732804,
+                "the 2008 summer olympics"
+            ]
+        ]
+    },
+    {
+        "Id": 9756,
+        "Question": "what is population of navotas that is point in time is 1939-1-1",
+        "Temporal signal": [
+            "OVERLAP"
+        ],
+        "Temporal question type": [
+            "Explicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Value",
+                "AnswerArgument": "20861"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q11188",
+                0.11273754388093948,
+                "population",
+                "world population"
+            ],
+            [
+                "Q17179",
+                0.5,
+                "navotas",
+                "Navotas"
+            ],
+            [
+                "Q11471",
+                0.22392599284648895,
+                "point in time",
+                "time"
+            ],
+            [
+                "Q11471",
+                0.22392599284648895,
+                "point in time",
+                "time"
+            ]
+        ],
+        "elq": [
+            [
+                "Q17179",
+                -1.285070776939392,
+                "navotas"
+            ],
+            [
+                "Q11471",
+                -4.208646774291992,
+                "time"
+            ],
+            [
+                "Q18639",
+                -4.262704372406006,
+                "1939"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q2625603",
+                    "population"
+                ],
+                0.24467822908648879,
+                "population"
+            ],
+            [
+                [
+                    "Q17179",
+                    "Navotas"
+                ],
+                0.1325145379012671,
+                "navotas"
+            ],
+            [
+                [
+                    "Q44946",
+                    "point"
+                ],
+                0.16095448268400858,
+                "point"
+            ],
+            [
+                [
+                    "Q11471",
+                    "time"
+                ],
+                0.13642946032713207,
+                "time"
+            ]
+        ]
+    },
+    {
+        "Id": 9757,
+        "Question": "what follows the next series of the godfather part ii",
+        "Temporal signal": [
+            "AFTER"
+        ],
+        "Temporal question type": [
+            "Implicit"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q3225260",
+                "WikidataLabel": "The Godfather trilogy",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/The_Godfather_(film_series)"
+            },
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q47703",
+                "WikidataLabel": "The Godfather",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/The_Godfather"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q728539",
+                0.11485320329666138,
+                "next",
+                "Next"
+            ],
+            [
+                "Q15709880",
+                0.0916542112827301,
+                "series",
+                "serial"
+            ],
+            [
+                "Q184768",
+                0.7026025056838989,
+                "godfather part ii",
+                "The Godfather Part II"
+            ]
+        ],
+        "elq": [
+            [
+                "Q184768",
+                -0.6430132389068604,
+                "the godfather part ii"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q1612508",
+                    "Doctor Who, series 6"
+                ],
+                0.180257463571464,
+                "the next series"
+            ],
+            [
+                [
+                    "Q202326",
+                    "The Godfather Part III"
+                ],
+                0.17109773589128904,
+                "the godfather part"
+            ],
+            [
+                [
+                    "Q362",
+                    "World War II"
+                ],
+                0.14506585669628946,
+                "ii"
+            ]
+        ]
+    },
+    {
+        "Id": 9758,
+        "Question": "which is the electoral district and represents john key has the member of 51st zealand parliamentwo",
+        "Temporal signal": [
+            "ORDINAL"
+        ],
+        "Temporal question type": [
+            "Ordinal"
+        ],
+        "Answer": [
+            {
+                "AnswerType": "Entity",
+                "WikidataQid": "Q5704055",
+                "WikidataLabel": "Helensville",
+                "WikipediaURL": "https://en.wikipedia.org/wiki/Helensville_(New_Zealand_electorate)"
+            }
+        ],
+        "Data source": "LC-QuAD 2.0 (ISWC 2019)",
+        "Question creation date": "2019-01-23",
+        "Data set": "development",
+        "tagme": [
+            [
+                "Q192611",
+                0.3159558176994324,
+                "electoral district",
+                "electoral unit"
+            ],
+            [
+                "Q57783",
+                0.6067580580711365,
+                "john key",
+                "John Key"
+            ],
+            [
+                "Q486839",
+                0.11134587973356247,
+                "member",
+                "member of parliament"
+            ],
+            [
+                "Q2438997",
+                0.027701744809746742,
+                "51st",
+                "51st (Highland) Division"
+            ],
+            [
+                "Q705",
+                0.05074677616357803,
+                "zealand",
+                "Zeeland"
+            ]
+        ],
+        "elq": [
+            [
+                "Q57783",
+                -0.9167793393135071,
+                "john key"
+            ],
+            [
+                "Q4640115",
+                -1.5537292957305908,
+                "51st zealand parliament"
+            ],
+            [
+                "Q2881272",
+                -3.4012484550476074,
+                "electoral district"
+            ]
+        ],
+        "wat": [
+            [
+                [
+                    "Q5312334",
+                    "Dufferin"
+                ],
+                0.049495245798965894,
+                "the electoral district"
+            ],
+            [
+                [
+                    "Q6243035",
+                    "John Keys"
+                ],
+                0.04247198147298596,
+                "john key"
+            ],
+            [
+                [
+                    "Q4051180",
+                    "The Members"
+                ],
+                0.04008432811393635,
+                "the member"
+            ],
+            [
+                [
+                    "Q25535",
+                    "Zealand"
+                ],
+                0.0935856455950086,
+                "zealand"
+            ]
+        ]
+    }
+]
