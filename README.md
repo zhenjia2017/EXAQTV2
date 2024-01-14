@@ -22,6 +22,11 @@ CLOCQ can be conveniently integrated via the [publicly available API](https://cl
 EXAQT makes use of [ELQ](https://github.com/facebookresearch/BLINK/tree/master/elq) and [TagMe](https://sobigdata.d4science.org/web/tagme/tagme-help) (or [WAT](https://sobigdata.d4science.org/web/tagme/wat-api)) to run NERD.
 You need to install and build the environment for running [ELQ](https://github.com/facebookresearch/BLINK/tree/master/elq). We already integrated [TagMe](https://sobigdata.d4science.org/web/tagme/tagme-help) (or [WAT](https://sobigdata.d4science.org/web/tagme/wat-api)) in the scripts for NERD.
 
+### Data
+You need two pretrained models:
+- BERT model. You can download from [here](https://huggingface.co/bert-base-cased/tree/main).
+- Wikipedia2Vec model. You can download from [here](https://qa.mpi-inf.mpg.de/exaqt/exaqt-supp-data.zip).
+
 ## Reproduce paper results
 First, you need to run the scripts for NERD on the dataset. Please follow the instruction in README-exaqt-nerd.md to run NERD on the dataset.
 Then you need to run the script pipeline.py. EXAQT includes two stages: answer graph construction and answer prediction.
