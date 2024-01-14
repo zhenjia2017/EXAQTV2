@@ -17,7 +17,7 @@ class AnswerGraph:
         self.logger.info("Module used does not require training.")
 
     def er_inference(self):
-        """Run ERS on data and add retrieve top-e evidences for each source combination."""
+        """Run ERS on data and add retrieve top-e facts for each source combination."""
         benchmark = self.config["benchmark"]
         input_dir = os.path.join(self.config["path_to_intermediate_results"], benchmark)
         output_dir = input_dir
@@ -48,31 +48,6 @@ class AnswerGraph:
             return
         self.er_inference_on_data_split(input_path, output_path)
         self.evaluate_retrieval_results(output_path)
-
-    def path_inference_on_data_split_dev_test(self, input_path, output_path):
-        """
-        Run Fact Retrieval on the dataset.
-        """
-        # score
-        # create folder if not exists
-        with open(input_path, "r") as fi, open(output_path, "w") as fp:
-            start = time.time()
-            # iterate
-            datas = list()
-            for line in tqdm(fi):
-                instance = json.loads(line)
-                datas.append(instance)
-
-            for instance in datas:
-                if datas.index(instance) < 1648: continue
-                self.path_inference_on_instance(instance)
-                # write instance to file
-                fp.write(json.dumps(instance))
-                fp.write("\n")
-
-        # log
-        self.logger.info(f"Done with seed entities pair path processing: {input_path}.")
-        self.logger.info(f"Time taken (seed entities pair path): {time.time() - start} seconds")
 
     def path_inference_on_data_split(self, input_path, output_path):
         """
@@ -294,15 +269,15 @@ class AnswerGraph:
         return input_data
 
     def er_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """Retrieve candidate."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def gst_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """GST."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def tempers_inference_on_instance(self, instance):
-        """Retrieve candidate and prune for generating faithful evidences for STF."""
+        """Temporal facts scoring."""
         raise Exception("This is an abstract function which should be overwritten in a derived class!")
 
     def ers_inference_on_instance(self, instance):
@@ -385,15 +360,9 @@ class AnswerGraph:
         each source, and for each category.
         """
         # score
-        answer_presences = list()
         category_to_temporal = {"explicit": [], "implicit": [], "temp.ans": [], "all": []}
         category_to_enhanced = {"explicit": [], "implicit": [], "temp.ans": [], "all": []}
 
-        count = 0
-        # process data
-        # with open(results_path, "r") as fp:
-        #     data = json.load(fp)
-        #     for instance in tqdm(data):
         with open(results_path, 'r') as fp:
             for line in tqdm(fp):
                 instance = json.loads(line)

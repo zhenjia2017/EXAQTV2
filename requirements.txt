@@ -16,7 +16,6 @@ emoji==2.2.0
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 # Editable install with no version control (exaqt==0.4)
--e /GW/qa6/work/EXAQT
 faith==0.1
 filelock==3.10.6
 Flask==2.2.3
