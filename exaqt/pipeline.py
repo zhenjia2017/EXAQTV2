@@ -101,7 +101,7 @@ class Pipeline:
         # process data
         input_path = os.path.join(input_dir, self.nerd,
                                   f"test-ers-{fs_max_evidences}-gst-{topg}-{tempfs_max_evidences}.jsonl")
-        output_dir = os.path.dirname(os.path.join(input_dir, self.nerd, 'answer_predict'))
+        output_dir = os.path.join(input_dir, self.nerd, self.config["answer_predict_path"])
         Path(output_dir).mkdir(parents=True, exist_ok=True)
         output_path = os.path.join(output_dir, f"test_subgraph.json")
         self.logger.info(

@@ -17,8 +17,9 @@ class GCN:
         self.name = self.config["name"]
         self.nerd = self.config["nerd"]
         self.input_dir = self.config["path_to_intermediate_results"]
+        self.benchmark = self.config["benchmark"]
         self.nerd = self.config["nerd"]
-        self.data_folder = os.path.join(self.input_dir, self.nerd, 'answer_predict')
+        self.data_folder = os.path.join(self.input_dir, self.benchmark, self.nerd, 'answer_predict')
         self.result_path = os.path.join(self.data_folder, 'result')
         self.model_path = os.path.join(self.data_folder, 'model')
         self.entity2id = load_dict(os.path.join(self.data_folder, 'entities.txt'))
