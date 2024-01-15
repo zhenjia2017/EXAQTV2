@@ -36,6 +36,12 @@ For reproducing the results on TimeQuestions, run the following two scripts resp
     bash scripts/pipeline.sh --answer-predict config/timequestions/config.yml
 ```
 
+You also can use the following commands to start the pipeline of answer graph construction and answer prediction.
+``` command
+    python -u exaqt/pipeline.py --answer-graph config/timequestions/config.yml
+    python -u exaqt/pipeline.py --answer-predict config/timequestions/config.yml
+```
+
 ## Evaluating EXAQT on other benchmarks
 
 - Reformat the benchmark as the same format as the TimeQuestions
@@ -47,6 +53,12 @@ We provide an example benchmark named "dataset_for_test_pipeline". For evaluatin
 ``` bash
     bash scripts/pipeline.sh --answer-graph config/dataset_for_test_pipeline/config.yml
     bash scripts/pipeline.sh --answer-predict config/dataset_for_test_pipeline/config.yml
+```
+
+You also can use the following commands to start the pipeline of answer graph construction and answer prediction.
+``` command
+    python -u exaqt/pipeline.py --answer-graph config/dataset_for_test_pipeline/config.yml
+    python -u exaqt/pipeline.py --answer-predict config/dataset_for_test_pipeline/config.yml
 ```
 
 

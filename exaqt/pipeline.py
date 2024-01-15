@@ -13,6 +13,7 @@ from exaqt.answer_predict.train_eva_rgcn import GCN
 from exaqt.answer_predict.script_listscore import compare_pr, evaluate_result_for_category
 from exaqt.evaluation import answer_presence, answer_presence_gst
 
+
 class Pipeline:
     def __init__(self, config):
         """Create the pipeline based on the config."""
@@ -20,7 +21,7 @@ class Pipeline:
         self.config = config
         self.logger = get_logger(__name__, config)
         self.result_logger = get_result_logger(config)
-        self.property_path = self.config["pro-info-path"]
+        self.property_path = os.path.join(self.config["path_to_data"], self.config["pro-info-path"])
         self.property = self._load_property()
         self.ftrs = self._load_ftrs()
         # load individual modules
@@ -32,6 +33,10 @@ class Pipeline:
         self.tempfs_max_evidences = self.config["temporal_fs_max_evidences"]
         loggers = [logging.getLogger(name) for name in logging.root.manager.loggerDict]
         print("Loggers", loggers)
+
+    def main_results(self):
+        self.answer_graph_pipeline()
+        self.answer_predict_pipeline()
 
     def answer_graph_pipeline(self):
         # step 0:
@@ -162,7 +167,7 @@ class Pipeline:
         pred_kb_file = os.path.join(model_path, self.config['pred_file'])
         threshold = 0.0
         compare_pr(pred_kb_file, threshold, open(dev_re_fp, 'w', encoding='utf-8'))
-        # evaluate_result_for_category(dev_nerd_file, dev_re_fp, dev_re_category_fp)
+        evaluate_result_for_category(dev_nerd_file, dev_re_fp, dev_re_category_fp)
         # result on test set
         test_re_fp = result_path + '/gcn_result_test.txt'
         test_re_category_fp = result_path + '/gcn_category_result_test.txt'
@@ -170,7 +175,7 @@ class Pipeline:
         test_acc = model.test()
         pred_kb_file = os.path.join(model_path, self.config['pred_file'])
         compare_pr(pred_kb_file, threshold, open(test_re_fp, 'w', encoding='utf-8'))
-        # evaluate_result_for_category(test_nerd_file, test_re_fp, test_re_category_fp)
+        evaluate_result_for_category(test_nerd_file, test_re_fp, test_re_category_fp)
 
     def run_ftrs(self):
         self.ftrs.train()
@@ -200,6 +205,48 @@ class Pipeline:
         MODEL_FILE = os.path.join(self.config["path_to_data"], self.config['wikipedia2vec_path'])
         get_pretrained_embedding_from_wiki2vec(MODEL_FILE, dictionary_path)
 
+    def _evaluate_gst(self, split):
+        """
+        Run the pipeline using gold answers for the dataset.
+        """
+        # define output path
+        """Run GST on data"""
+        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
+        output_dir = input_dir
+        fs_max_evidences = self.config["fs_max_evidences"]
+        topg = self.config["top-gst-number"]
+        # process data
+        input_path = os.path.join(input_dir, self.nerd, f"{split}-ers-{fs_max_evidences}.jsonl")
+        output_path = os.path.join(output_dir, self.nerd, f"{split}-ers-{fs_max_evidences}-gst-{topg}.jsonl")
+
+        self.ftrs.gst_inference_on_data_split(input_path, output_path)
+        self.ftrs.evaluate_gst_results(output_path)
+
+    def _evaluate_gst_train(self, part):
+        """
+        Run the pipeline using gold answers for the dataset.
+        """
+        # define output path
+        """Run GST on data"""
+        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
+        output_dir = input_dir
+        fs_max_evidences = self.config["fs_max_evidences"]
+        topg = self.config["top-gst-number"]
+        # process data
+        input_path = os.path.join(input_dir, self.nerd, f"train-ers-{fs_max_evidences}-path.jsonl")
+        output_path = os.path.join(output_dir, self.nerd, f"train-ers-{fs_max_evidences}-gst-{topg}.jsonl")
+
+        self.ftrs.gst_inference_on_data_split(input_path, output_path)
+        self.ftrs.evaluate_gst_results(output_path)
+
+    def _evaluate_retriever(self, split):
+        input_dir = os.path.join(self.config["path_to_intermediate_results"], self.config["benchmark"])
+        output_dir = input_dir
+        input_path = os.path.join(input_dir, f"{split}-nerd.json")
+        output_path = os.path.join(output_dir, self.nerd, f"{split}-er.jsonl")
+        self.ftrs.er_inference_on_data_split(input_path, output_path)
+        self.ftrs.evaluate_retrieval_results(output_path)
+
     def _load_ftrs(self):
         self.logger.info("Loading Fact Retrieval module")
         return FTRS(self.config, self.property)
@@ -224,7 +271,7 @@ if __name__ == "__main__":
         pipeline = Pipeline(config)
         pipeline.answer_graph_pipeline()
 
-    if function == "--answer-predict":
+    elif function == "--answer-predict":
         pipeline = Pipeline(config)
         pipeline.answer_predict_pipeline()
 

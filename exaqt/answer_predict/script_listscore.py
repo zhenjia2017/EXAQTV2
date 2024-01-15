@@ -96,10 +96,10 @@ def evaluate_result_for_category(nerd_file, test_re_fp, out_file):
     with open(nerd_file, "r") as fp:
         data = json.load(fp)
 
-    type_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': []}
-    p1_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': []}
-    h5_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': []}
-    mrr_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': []}
+    type_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': [], 'Ordinal':[]}
+    p1_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': [], 'Ordinal':[]}
+    h5_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': [], 'Ordinal':[]}
+    mrr_res_dic = {'Explicit': [], 'Implicit': [], 'Temp.Ans': [], 'Ordinal':[]}
 
     count = 0
     for instance in tqdm(data):
