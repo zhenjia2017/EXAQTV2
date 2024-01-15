@@ -66,19 +66,19 @@ class Pipeline:
 			f"Step3: Start generate dictionaries")
 		step3_start = time.time()
 		self._generate_dictionary_embeddings()
-		self.logger.info(f"Time taken (generate subgraph for test dataset): {time.time() - step3_start} seconds")
+		self.logger.info(f"Time taken (generate dictionary and embeddings): {time.time() - step3_start} seconds")
 
 		self.logger.info(
 		f"Step4: Start train the model")
 		step4_start = time.time()
 		self.gcn_model_train()
-		self.logger.info(f"Time taken (generate subgraph for test dataset): {time.time() - step4_start} seconds")
+		self.logger.info(f"Time taken (train the model): {time.time() - step4_start} seconds")
 
 		self.logger.info(
 		f"Step5: Start inference the answers")
 		step5_start = time.time()
 		self.gcn_model_inference()
-		self.logger.info(f"Time taken (generate subgraph for test dataset): {time.time() - step5_start} seconds")
+		self.logger.info(f"Time taken (inference answers): {time.time() - step5_start} seconds")
 
 	def _relation_question_embeddings(self):
 		self.logger.info("Generate question and relation embeddings file")
